@@ -4,6 +4,7 @@ Skriver resultatet til docs/data.json. Kun standardbiblioteket trengs."""
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -231,6 +232,75 @@ def fetch_nve():
     return out
 
 
+def site_url():
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if "/" in repo:
+        owner, name = repo.split("/", 1)
+        return f"https://{owner.lower()}.github.io/{name}/"
+    return None
+
+
+def build_notifications(new_articles, new_warnings):
+    """Varsler om nye saker og NVE-varsler i Sogn og Fjordane. Maks fem enkeltvarsler per kjøring."""
+    msgs = []
+    for w in new_warnings:
+        name = {2: "gult", 3: "oransje", 4: "rødt"}.get(w["level"], "")
+        msgs.append({
+            "title": f"Skredvarsel ({name} nivå)",
+            "message": ", ".join(w["areas"]) or "Sogn og Fjordane",
+            "click": "https://www.varsom.no/flom-og-jordskred/varsling/",
+            "priority": 4 if w["level"] >= 3 else 3,
+            "tags": ["warning"],
+        })
+    if len(new_articles) > 5:
+        msgs.append({
+            "title": f"{len(new_articles)} nye skredsaker",
+            "message": "Nye saker fra Sogn og Fjordane",
+            "click": site_url() or "https://www.varsom.no/flom-og-jordskred/",
+            "tags": ["mountain"],
+        })
+    else:
+        for a in new_articles:
+            msgs.append({
+                "title": f"Skred: {a['source']}",
+                "message": a["title"],
+                "click": a["url"],
+                "tags": ["mountain"],
+            })
+    return msgs
+
+
+def send_ntfy(msgs):
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic or not msgs:
+        return
+    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    for m in msgs:
+        body = json.dumps({"topic": topic, **m}, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(
+            server, data=body, headers={"Content-Type": "application/json", "User-Agent": UA}
+        )
+        try:
+            urllib.request.urlopen(req, timeout=20).read()
+        except Exception as e:  # noqa: BLE001
+            print(f"ntfy feilet: {e}", file=sys.stderr)
+        time.sleep(0.5)
+
+
+def find_new(prev, articles, warnings):
+    prev_ids = {a["id"] for a in prev.get("articles", [])}
+    recent = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)
+    new_articles = [
+        a for a in articles
+        if a["id"] not in prev_ids and "sf" in a["regions"]
+        and dt.datetime.fromisoformat(a["published"]) >= recent
+    ]
+    new_articles.sort(key=lambda a: a["published"])
+    prev_w = {(w["id"], w["level"]) for w in prev.get("warnings", [])}
+    new_warnings = [w for w in warnings if (w["id"], w["level"]) not in prev_w and "sf" in w["regions"]]
+    return new_articles, new_warnings
+
+
 def main():
     prev = {}
     if DATA.exists():
@@ -252,6 +322,11 @@ def main():
     DATA.parent.mkdir(exist_ok=True)
     DATA.write_text(json.dumps(new, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Skrev {len(articles)} saker og {len(warnings)} varsler.")
+    new_articles, new_warnings = find_new(prev, articles, warnings)
+    msgs = build_notifications(new_articles, new_warnings)
+    if msgs:
+        print(f"Sender {len(msgs)} varsel(er) via ntfy" if os.environ.get("NTFY_TOPIC") else "NTFY_TOPIC er ikke satt – sender ikke varsler")
+        send_ntfy(msgs)
 
 
 if __name__ == "__main__":
