@@ -1,47 +1,271 @@
 {
   "keep_days": 21,
   "google_when": "7d",
-
-  "sf_names": ["Sogn og Fjordane", "Sogn", "Sunnfjord", "Nordfjord", "Kinn", "Florø", "Flora", "Askvoll", "Fjaler", "Førde", "Gloppen", "Stryn", "Bremanger", "Måløy", "Stad", "Selje", "Eid", "Nordfjordeid", "Hyllestad", "Høyanger", "Vik i Sogn", "Vik", "Balestrand", "Sogndal", "Leikanger", "Luster", "Lærdal", "Årdal", "Aurland", "Flåm", "Solund", "Gulen", "Jølster", "Naustdal", "Hornindal", "Loen", "Fjærland"],
-  "ho_names": ["Hordaland", "Bergen", "Askøy", "Øygarden", "Sotra", "Alver", "Osterøy", "Vaksdal", "Voss", "Kvam", "Ullensvang", "Odda", "Eidfjord", "Ulvik", "Granvin", "Hardanger", "Kvinnherad", "Etne", "Sveio", "Stord", "Bømlo", "Fitjar", "Tysnes", "Austevoll", "Bjørnafjorden", "Os", "Samnanger", "Modalen", "Masfjorden", "Austrheim", "Fedje", "Lindås", "Radøy", "Meland", "Nordhordland", "Sunnhordland"],
-
-  "sf_queries": ["Sogn og Fjordane", "Sunnfjord", "Nordfjord", "Sogn", "Kinn", "Florø", "Askvoll", "Fjaler", "Førde", "Gloppen", "Stryn", "Bremanger", "Stad", "Hyllestad", "Høyanger", "Vik i Sogn", "Balestrand", "Sogndal", "Luster", "Lærdal", "Årdal", "Aurland", "Solund", "Gulen"],
-  "ho_queries": ["Hordaland", "Bergen", "Voss", "Hardanger", "Ullensvang", "Kvinnherad", "Stord", "Bømlo", "Vaksdal", "Alver", "Øygarden", "Askøy", "Osterøy", "Etne", "Sveio"],
-  "national_queries": ["Vestland", "Sogn og Fjordane", "Hordaland"],
-
+  "sf_names": [
+    "Sogn og Fjordane",
+    "Sogn",
+    "Sunnfjord",
+    "Nordfjord",
+    "Kinn",
+    "Florø",
+    "Flora",
+    "Askvoll",
+    "Fjaler",
+    "Førde",
+    "Gloppen",
+    "Stryn",
+    "Bremanger",
+    "Måløy",
+    "Stad",
+    "Selje",
+    "Eid",
+    "Nordfjordeid",
+    "Hyllestad",
+    "Høyanger",
+    "Vik i Sogn",
+    "Vik",
+    "Balestrand",
+    "Sogndal",
+    "Leikanger",
+    "Luster",
+    "Lærdal",
+    "Årdal",
+    "Aurland",
+    "Flåm",
+    "Solund",
+    "Gulen",
+    "Jølster",
+    "Naustdal",
+    "Hornindal",
+    "Loen",
+    "Fjærland"
+  ],
+  "ho_names": [
+    "Hordaland",
+    "Bergen",
+    "Askøy",
+    "Øygarden",
+    "Sotra",
+    "Alver",
+    "Osterøy",
+    "Vaksdal",
+    "Voss",
+    "Kvam",
+    "Ullensvang",
+    "Odda",
+    "Eidfjord",
+    "Ulvik",
+    "Granvin",
+    "Hardanger",
+    "Kvinnherad",
+    "Etne",
+    "Sveio",
+    "Stord",
+    "Bømlo",
+    "Fitjar",
+    "Tysnes",
+    "Austevoll",
+    "Bjørnafjorden",
+    "Os",
+    "Samnanger",
+    "Modalen",
+    "Masfjorden",
+    "Austrheim",
+    "Fedje",
+    "Lindås",
+    "Radøy",
+    "Meland",
+    "Nordhordland",
+    "Sunnhordland"
+  ],
+  "sf_queries": [
+    "Sogn og Fjordane",
+    "Sunnfjord",
+    "Nordfjord",
+    "Sogn",
+    "Kinn",
+    "Florø",
+    "Askvoll",
+    "Fjaler",
+    "Førde",
+    "Gloppen",
+    "Stryn",
+    "Bremanger",
+    "Stad",
+    "Hyllestad",
+    "Høyanger",
+    "Vik i Sogn",
+    "Balestrand",
+    "Sogndal",
+    "Luster",
+    "Lærdal",
+    "Årdal",
+    "Aurland",
+    "Solund",
+    "Gulen"
+  ],
+  "ho_queries": [
+    "Hordaland",
+    "Bergen",
+    "Voss",
+    "Hardanger",
+    "Ullensvang",
+    "Kvinnherad",
+    "Stord",
+    "Bømlo",
+    "Vaksdal",
+    "Alver",
+    "Øygarden",
+    "Askøy",
+    "Osterøy",
+    "Etne",
+    "Sveio"
+  ],
+  "national_queries": [
+    "Vestland",
+    "Sogn og Fjordane",
+    "Hordaland"
+  ],
   "local_sources": [
-    {"name": "Firda", "domain": "firda.no", "region": "sf"},
-    {"name": "Firdaposten", "domain": "firdaposten.no", "region": "sf"},
-    {"name": "Sogn Avis", "domain": "sognavis.no", "region": "sf"},
-    {"name": "Fjordenes Tidende", "domain": "fjordenestidende.no", "region": "sf"},
-    {"name": "Fjordabladet", "domain": "fjordabladet.no", "region": "sf"},
-    {"name": "Porten", "domain": "porten.no", "region": "sf"},
-    {"name": "Framtid i Nord", "domain": "framtidinord.no", "region": "sf"},
-    {"name": "Sogn og Fjordane Avis", "domain": "sognogfjordane.no", "region": "sf"},
-    {"name": "Bergens Tidende", "domain": "bt.no", "region": "ho"},
-    {"name": "Bergensavisen", "domain": "ba.no", "region": "ho"},
-    {"name": "Strilen", "domain": "strilen.no", "region": "ho"},
-    {"name": "Os og Fusaposten", "domain": "osogfusa.no", "region": "ho"},
-    {"name": "Vestnytt", "domain": "vestnytt.no", "region": "ho"},
-    {"name": "Sunnhordland", "domain": "sunnhordland.no", "region": "ho"},
-    {"name": "Grenda", "domain": "grenda.no", "region": "ho"},
-    {"name": "Kvinnheringen", "domain": "kvinnheringen.no", "region": "ho"},
-    {"name": "Hardanger Folkeblad", "domain": "hfl.no", "region": "ho"},
-    {"name": "Hardanger24", "domain": "hardanger24.no", "region": "ho"},
-    {"name": "Vossanytt", "domain": "vossanytt.no", "region": "ho"},
-    {"name": "Askøyværingen", "domain": "ave.no", "region": "ho"},
-    {"name": "Bygdanytt", "domain": "bygdanytt.no", "region": "ho"}
+    {
+      "name": "Firda",
+      "domain": "firda.no",
+      "region": "sf"
+    },
+    {
+      "name": "Firdaposten",
+      "domain": "firdaposten.no",
+      "region": "sf"
+    },
+    {
+      "name": "Sogn Avis",
+      "domain": "sognavis.no",
+      "region": "sf"
+    },
+    {
+      "name": "Fjordenes Tidende",
+      "domain": "fjordenestidende.no",
+      "region": "sf"
+    },
+    {
+      "name": "Fjordabladet",
+      "domain": "fjordabladet.no",
+      "region": "sf"
+    },
+    {
+      "name": "Porten",
+      "domain": "porten.no",
+      "region": "sf"
+    },
+    {
+      "name": "Framtid i Nord",
+      "domain": "framtidinord.no",
+      "region": "sf"
+    },
+    {
+      "name": "Sogn og Fjordane Avis",
+      "domain": "sognogfjordane.no",
+      "region": "sf"
+    },
+    {
+      "name": "Bergens Tidende",
+      "domain": "bt.no",
+      "region": "ho"
+    },
+    {
+      "name": "Bergensavisen",
+      "domain": "ba.no",
+      "region": "ho"
+    },
+    {
+      "name": "Strilen",
+      "domain": "strilen.no",
+      "region": "ho"
+    },
+    {
+      "name": "Os og Fusaposten",
+      "domain": "osogfusa.no",
+      "region": "ho"
+    },
+    {
+      "name": "Vestnytt",
+      "domain": "vestnytt.no",
+      "region": "ho"
+    },
+    {
+      "name": "Sunnhordland",
+      "domain": "sunnhordland.no",
+      "region": "ho"
+    },
+    {
+      "name": "Grenda",
+      "domain": "grenda.no",
+      "region": "ho"
+    },
+    {
+      "name": "Kvinnheringen",
+      "domain": "kvinnheringen.no",
+      "region": "ho"
+    },
+    {
+      "name": "Hardanger Folkeblad",
+      "domain": "hfl.no",
+      "region": "ho"
+    },
+    {
+      "name": "Hardanger24",
+      "domain": "hardanger24.no",
+      "region": "ho"
+    },
+    {
+      "name": "Vossanytt",
+      "domain": "vossanytt.no",
+      "region": "ho"
+    },
+    {
+      "name": "Askøyværingen",
+      "domain": "ave.no",
+      "region": "ho"
+    },
+    {
+      "name": "Bygdanytt",
+      "domain": "bygdanytt.no",
+      "region": "ho"
+    }
   ],
-
   "national_sources": [
-    {"name": "NRK", "domain": "nrk.no"},
-    {"name": "VG", "domain": "vg.no"},
-    {"name": "TV 2", "domain": "tv2.no"},
-    {"name": "Nettavisen", "domain": "nettavisen.no"},
-    {"name": "Dagbladet", "domain": "dagbladet.no"}
+    {
+      "name": "VG",
+      "domain": "vg.no"
+    },
+    {
+      "name": "TV 2",
+      "domain": "tv2.no"
+    },
+    {
+      "name": "Nettavisen",
+      "domain": "nettavisen.no"
+    },
+    {
+      "name": "Dagbladet",
+      "domain": "dagbladet.no"
+    }
   ],
-
   "direct_feeds": [
-    {"name": "NRK Vestland", "url": "https://www.nrk.no/vestland/toppsaker.rss", "region": "annet"}
+    {
+      "name": "NRK Vestland",
+      "url": "https://www.nrk.no/vestland/toppsaker.rss",
+      "region": "annet"
+    }
+  ],
+  "regional_sources": [
+    {
+      "name": "NRK Vestland",
+      "domain": "nrk.no/vestland"
+    }
+  ],
+  "blocked_sources": [
+    "Adressa",
+    "Adresseavisen"
   ]
 }
