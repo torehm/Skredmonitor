@@ -1,66 +1,6 @@
 {
  "articles": [
   {
-   "id": "3111bf8bf2e2",
-   "title": "Ras isolerer bygda Vikten i Lofoten",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ1BmOUdlWFI2WjdwNWdIWkIwTUwtR04tWmRRNGpxVmNhWTR5aEh4SkZVRGtFTlQ3YnQzTnp3MWs2b085R3BRRmp0Q1RfQTJhNmJFVUV6VzlMSm1kVC1HaDJnckk5bnpzQXBORXV3b2JRcGl2aFVZaGIzQ0U4SnRlbGp3NkRpQURpS3EwemN3?oc=5",
-   "source": "adressa.no",
-   "published": "2026-09-27T16:48:13+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "ho"
-   ],
-   "also": []
-  },
-  {
-   "id": "3fbc888afb00",
-   "title": "Bygd isolert og uten strøm etter steinras i Lofoten",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN2dvS0huWjlPdWZKXzM0MXVGaS1OUk9fS0d3ek5fa2hsRWZycTFBbjY1dkk3dDR0QXNkSk9laFpFUEpYZlhQZHRpSDBjZ1lEYlNTQ25VUVZQYi1TZTRIdjRrM3ZCcXFsb3Jmb05WU3BTX0pmcTVMdHdaSW5mUnROWDlFdFlaSDJIZ3R4UHln?oc=5",
-   "source": "NRK",
-   "published": "2026-09-27T16:17:15+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
-  },
-  {
-   "id": "f7026751a14f",
-   "title": "Bygd isolert etter steinras i Flakstad",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSEo0S2lLRTBFRXF1QXg5VENQVWRfMVZzM21LTkNhWVpWU2JuSng5WWkwLWkyOE9Nbl9ZQkhId25oLUFLVjhjSk9GdWVxZlZtT0FEYjVHMVdBWWdlY0xVcmNMQTdCbkVvUjY5c0hjMUNWZUwyZGRCd1ZiWElQN2xCNWhfRQ?oc=5",
-   "source": "NRK",
-   "published": "2026-09-27T15:00:12+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
-  },
-  {
-   "id": "7eb415d3d66d",
-   "title": "To døde i skred i Himalaya – flere savnet – Siste nytt",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbE9PUFNoYWs0ZlRrQ1dNdVljczRPakNneUtDWHFFNjhEWlJqdVQxZlF0OVFPSHItSVd6NzZLUGJ4cFRjM00yMDNmZVdWUGgyemx0SEd0ZUgtanZac2gyQ01VR2xTSVZ5eWZXTWtYakxiMzR2M3hQenFrZUVmaDNQdU5wWmZldw?oc=5",
-   "source": "NRK",
-   "published": "2026-09-27T14:11:26+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
-  },
-  {
-   "id": "878dd874969a",
-   "title": "Ti sakna etter snøskred i Nepal – Siste nytt",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41MWh0dlJjSENSalpWQ3ZEUTRXa2VfVlBnSnloVXlLSUNMckJ5WFhYOE9hczc2YVNmUkhfN3plQVEzNm52cHZVb25aMVdDMmFOT3BTenFRdVQ1czdGVXBSN0huZ3k3a2RPVUJrRy1HYlU1aUZQTGZzUw?oc=5",
-   "source": "NRK",
-   "published": "2026-09-27T08:33:36+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
-  },
-  {
    "id": "64cee6b523c6",
    "title": "Steinras stengjer turveg",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yR2ZtSlRFd0RhV3ZKZng5QjA5UmlPbHdwX1o3ckZqdzIxcW5FSEI1OGlmRVdYN2Zxajd1UHlONVZfR0dQeUxoVmc5QWtGSEVUdjZXcGI4SHdvNGJXVktSLXVuRS0yRTFxREtLWldiZEE?oc=5",
@@ -70,19 +10,8 @@
    "regions": [
     "sf"
    ],
-   "also": []
-  },
-  {
-   "id": "3c5f82036911",
-   "title": "Har fått på plass et nytt skredvarslingstilbud",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWUdpM19JbDZ0OF9ib3YwbEU3MWRJWTM0OXJPczllR0poaWwwTU5JSk0tU1c2ZUVRYmw5c1JZbVhTMlBlWDZWNENaVHlhaFlCVDU4T1FIQUpaWFhweHY5WEJXSHpmNXUtMHV4aDNkSGVNQWpIclR2dWp3UDNET2VFamtsRzNjSHNTRzZDVEVhVi1sYmhnVDRn?oc=5",
-   "source": "NRK",
-   "published": "2026-09-24T15:20:53+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
+   "also": [],
+   "trusted": false
   },
   {
    "id": "af7c3a22227d",
@@ -96,34 +25,11 @@
     "ho",
     "sf"
    ],
-   "also": []
-  },
-  {
-   "id": "732c0b013075",
-   "title": "Skred",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Dd1ZqUE1tb3ZIZ2l0czVsM2xQZ29HbVFYU0NUel95ZUMwME5idmNJT1NUMHVmZzFheHJwaW5XX2JFWjFkek9FeUpyTnhWYmpD?oc=5",
-   "source": "NRK",
-   "published": "2026-09-23T12:57:15+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
-  },
-  {
-   "id": "4b8c1e412dfb",
-   "title": "NVE sier nei til arealplan for Årnes – frykter skred – Stor-Oslo",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWE1MR2tWaTlsODU1SmFSTXkzLWpQRmtnNU5zS3FBS0R5Zk1hNWRtX25JMGRabzc4NDAwal9GYUZsT0JuWFd4M1k5aEhZMFpad3I4SDZsTHZoUEV4WU9xR0daWFo3LVJtNWQzb1dHM1ViVmd1SnJoSlctUTBpQW5yRHBJeGJUWkExRlZGZ2x0c3VUSndJTEFR?oc=5",
-   "source": "NRK",
-   "published": "2026-09-22T03:32:36+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": []
+   "also": [],
+   "trusted": true
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-09-28T13:14:33+00:00"
+ "updated": "2026-09-28T13:29:41+00:00"
 }
