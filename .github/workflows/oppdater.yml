@@ -22,6 +22,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Hent saker og varsler
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python fetch.py
       - name: Lagre endringer
         run: |
