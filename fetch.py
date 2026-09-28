@@ -97,29 +97,47 @@ def norm_key(title):
 
 
 def build_tasks():
-    """(navn, url, standardregion)"""
+    """(navn, url, standardregion, krev_stedsnavn, regional_kilde)
+
+    krev_stedsnavn: saken må nevne et sted i regionen (eller «Vestland») i tittelen.
+    regional_kilde: kilden dekker bare Vestland (f.eks. NRK Vestland), så alt derfra beholdes."""
     tasks = []
     for n in CFG["sf_queries"]:
-        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "sf"))
+        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "sf", False, False))
     for n in CFG["ho_queries"]:
-        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "ho"))
+        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "ho", False, False))
     for s in CFG["local_sources"]:
-        tasks.append((s["name"], google_news_url(f"{SEARCH_TERMS} site:{s['domain']}"), s["region"]))
+        tasks.append((s["name"], google_news_url(f"{SEARCH_TERMS} site:{s['domain']}"), s["region"], False, False))
+    for s in CFG.get("regional_sources", []):
+        tasks.append((s["name"], google_news_url(f"{SEARCH_TERMS} site:{s['domain']}"), "annet", False, True))
     for s in CFG["national_sources"]:
-        tasks.append((s["name"], google_news_url(f"{SEARCH_TERMS} Vestland site:{s['domain']}"), "annet"))
+        tasks.append((s["name"], google_news_url(f"{SEARCH_TERMS} Vestland site:{s['domain']}"), "annet", True, False))
     for n in CFG["national_queries"]:
-        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "annet"))
+        tasks.append((f"søk {n}", google_news_url(f'{SEARCH_TERMS} "{n}"'), "annet", True, False))
     for f in CFG["direct_feeds"]:
-        tasks.append((f["name"], f["url"], f["region"]))
+        tasks.append((f["name"], f["url"], f["region"], False, True))
     return tasks
+
+
+def is_blocked(source):
+    s = source.lower()
+    return any(b.lower() in s for b in CFG.get("blocked_sources", []))
+
+
+def names_a_place(title):
+    return bool(SF_RE.search(title) or HO_RE.search(title) or "Vestland" in title)
 
 
 def collect_articles(existing):
     now = dt.datetime.now(dt.timezone.utc)
     cutoff = now - dt.timedelta(days=CFG["keep_days"])
-    by_id = {a["id"]: a for a in existing}
+    # Rydd bort gamle saker fra blokkerte kilder, og nasjonale saker uten stedstilknytning
+    by_id = {
+        a["id"]: a for a in existing
+        if not is_blocked(a["source"]) and (a["regions"] != ["annet"] or a.get("trusted"))
+    }
     ok = failed = 0
-    for name, url, default in build_tasks():
+    for name, url, default, strict, trusted in build_tasks():
         try:
             items = parse_feed(http_get(url), name)
             ok += 1
@@ -128,7 +146,9 @@ def collect_articles(existing):
             print(f"  feil: {name}: {e}", file=sys.stderr)
             continue
         for it in items:
-            if not KEYWORDS.search(it["title"]):
+            if not KEYWORDS.search(it["title"]) or is_blocked(it["source"]):
+                continue
+            if strict and not names_a_place(it["title"]):
                 continue
             if dt.datetime.fromisoformat(it["published"]) < cutoff:
                 continue
@@ -137,13 +157,14 @@ def collect_articles(existing):
             if aid in by_id:
                 a = by_id[aid]
                 a["regions"] = sorted(set(a["regions"]) | regions)
+                a["trusted"] = bool(a.get("trusted") or trusted)
                 if it["source"] != a["source"] and all(o["source"] != it["source"] for o in a.get("also", [])):
                     a.setdefault("also", []).append({"source": it["source"], "url": it["url"]})
             else:
                 by_id[aid] = {
                     "id": aid, "title": it["title"], "url": it["url"], "source": it["source"],
                     "published": it["published"], "first_seen": now.isoformat(timespec="seconds"),
-                    "regions": sorted(regions), "also": [],
+                    "regions": sorted(regions), "also": [], "trusted": trusted,
                 }
         time.sleep(0.4)
     print(f"Kilder: {ok} ok, {failed} feilet")
