@@ -1,6 +1,19 @@
 {
  "articles": [
   {
+   "id": "78c08780cc86",
+   "title": "Trafikk, Ulvik | Steinskred på fylkesveg i Ulvik",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaUZXQldfdVhPd3htT2FUaUZzWFdaOG5Qc25VU2xfYW8tSzBBZGJPSWhIeF9uNzV0Mjc2c2dUUkhObXhxVHVNelJDYnJXS1NhaXdDR2xZelhORk1DYVVYelJpb2FOY1NhUVktNzJjWmEyZFEwMUJqT2NJaVdMTl9WWDdXYw?oc=5",
+   "source": "avisa-hordaland.no",
+   "published": "2026-09-29T08:22:23+00:00",
+   "first_seen": "2026-09-29T21:12:33+00:00",
+   "regions": [
+    "ho"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "64cee6b523c6",
    "title": "Steinras stengjer turveg",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yR2ZtSlRFd0RhV3ZKZng5QjA5UmlPbHdwX1o3ckZqdzIxcW5FSEI1OGlmRVdYN2Zxajd1UHlONVZfR0dQeUxoVmc5QWtGSEVUdjZXcGI4SHdvNGJXVktSLXVuRS0yRTFxREtLWldiZEE?oc=5",
@@ -31,5 +44,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-09-28T13:29:41+00:00"
+ "updated": "2026-09-29T21:13:16+00:00"
 }
