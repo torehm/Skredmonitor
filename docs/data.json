@@ -10,7 +10,12 @@
    "regions": [
     "ho"
    ],
-   "also": [],
+   "also": [
+    {
+     "source": "Hordaland",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaUZXQldfdVhPd3htT2FUaUZzWFdaOG5Qc25VU2xfYW8tSzBBZGJPSWhIeF9uNzV0Mjc2c2dUUkhObXhxVHVNelJDYnJXS1NhaXdDR2xZelhORk1DYVVYelJpb2FOY1NhUVktNzJjWmEyZFEwMUJqT2NJaVdMTl9WWDdXYw?oc=5"
+    }
+   ],
    "trusted": false
   },
   {
@@ -43,6 +48,6 @@
   }
  ],
  "warnings": [],
- "warnings_error": null,
- "updated": "2026-09-29T21:13:16+00:00"
+ "warnings_error": "<urlopen error [Errno 104] Connection reset by peer>",
+ "updated": "2026-09-30T03:35:14+00:00"
 }
