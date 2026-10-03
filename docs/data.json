@@ -1,6 +1,32 @@
 {
  "articles": [
   {
+   "id": "7a03bbc93050",
+   "title": "Gult farevarsel for flaum og jordskred",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01bnd5eDZIOW1OTS1xaV9hTW5YUHp1clk5Ni0ybXJaclFLUjhEazJ3YWFRY2JYM3lhTlV5OHNpTWFCd3lILWJNb2s5R1dOS19Ldk01emZsTlByMndjMHpsT01sUTV4NFYtTXd6NXM0SjJZV3RzNEJWN3FQTFZfdw?oc=5",
+   "source": "Firda",
+   "published": "2026-10-03T10:22:41+00:00",
+   "first_seen": "2026-10-03T10:33:07+00:00",
+   "regions": [
+    "sf"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "b4ce98ace505",
+   "title": "Vêr, Gult farevarsel | Fare for flaum og skred i Vestland",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb04xQ3RiQVh0ZWdhSEpMelhmX1k5eVVGSlVmZjFReFhkTmFOZy1uU0ZjTFl2bjVGcjFRU0drRzUwb0FVYnNVaU51d1NyT1VReno4RzhZRnBWZklzekpsc1B6WlBKMXBQVlMxMGNPYi1mVFBZMGkzSkJXZng1VWhPNVNZQWtwdEE?oc=5",
+   "source": "Hordaland",
+   "published": "2026-10-03T09:40:10+00:00",
+   "first_seen": "2026-10-03T10:33:07+00:00",
+   "regions": [
+    "annet"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "a3a8c1fd1a32",
    "title": "Fare for flom og skred i Vestland",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UUk9xb05Zem9aM004ZUhyVkJDZjMyNFBJZE1GMnF6Rl9KZk4wb21OWVFmd0ktZDUyRE5xU2FJZHlLY0ZfNXdnMjNOUEUyYXc?oc=5",
@@ -718,5 +744,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-03T09:33:17+00:00"
+ "updated": "2026-10-03T10:33:47+00:00"
 }
