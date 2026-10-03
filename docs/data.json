@@ -52,7 +52,658 @@
    "trusted": true
   }
  ],
- "warnings": [],
+ "warnings": [
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bergen"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Gloppen"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Askvoll"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kinn"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Høyanger"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kvinnherad"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Fitjar"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bjørnafjorden"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Tysnes"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Sunnfjord"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Etne"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Hyllestad"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Fjaler"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Masfjorden"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Vaksdal"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Samnanger"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Alver"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Voss"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Stord"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Modalen"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Gulen"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Osterøy"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kvam"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Ullensvang"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584894",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bremanger"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-04T07:00:00",
+   "valid_to": "2026-10-05T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bergen"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Gloppen"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Askvoll"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kinn"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Høyanger"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kvinnherad"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Fitjar"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bjørnafjorden"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Tysnes"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Sunnfjord"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Etne"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Hyllestad"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Fjaler"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Masfjorden"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Vaksdal"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Samnanger"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Alver"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Voss"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Stord"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Modalen"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Gulen"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Osterøy"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Kvam"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Ullensvang"
+   ],
+   "regions": [
+    "ho"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  },
+  {
+   "id": "584895",
+   "level": 2,
+   "text": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+   "areas": [
+    "Bremanger"
+   ],
+   "regions": [
+    "sf"
+   ],
+   "valid_from": "2026-10-05T07:00:00",
+   "valid_to": "2026-10-06T06:59:00"
+  }
+ ],
  "warnings_error": null,
- "updated": "2026-10-03T04:56:02+00:00"
+ "updated": "2026-10-03T09:14:35+00:00"
 }
