@@ -1,6 +1,19 @@
 {
  "articles": [
   {
+   "id": "a3a8c1fd1a32",
+   "title": "Fare for flom og skred i Vestland",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UUk9xb05Zem9aM004ZUhyVkJDZjMyNFBJZE1GMnF6Rl9KZk4wb21OWVFmd0ktZDUyRE5xU2FJZHlLY0ZfNXdnMjNOUEUyYXc?oc=5",
+   "source": "NRK",
+   "published": "2026-10-03T09:29:45+00:00",
+   "first_seen": "2026-10-03T09:32:36+00:00",
+   "regions": [
+    "annet"
+   ],
+   "also": [],
+   "trusted": true
+  },
+  {
    "id": "78c08780cc86",
    "title": "Trafikk, Ulvik | Steinskred på fylkesveg i Ulvik",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaUZXQldfdVhPd3htT2FUaUZzWFdaOG5Qc25VU2xfYW8tSzBBZGJPSWhIeF9uNzV0Mjc2c2dUUkhObXhxVHVNelJDYnJXS1NhaXdDR2xZelhORk1DYVVYelJpb2FOY1NhUVktNzJjWmEyZFEwMUJqT2NJaVdMTl9WWDdXYw?oc=5",
@@ -705,5 +718,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-03T09:14:35+00:00"
+ "updated": "2026-10-03T09:33:17+00:00"
 }
