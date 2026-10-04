@@ -93,6 +93,11 @@ def detect_regions(text, default):
     return regions
 
 
+def detect_places(text):
+    """Stadnamn nevnt i tittelen (for kartvisning). Same namn som nøklane i COORDS i index.html."""
+    return {m.group(0) for m in SF_RE.finditer(text)} | {m.group(0) for m in HO_RE.finditer(text)}
+
+
 def norm_key(title):
     return re.sub(r"[^0-9a-zæøå]", "", title.lower())[:70]
 
@@ -155,9 +160,11 @@ def collect_articles(existing):
                 continue
             aid = hashlib.sha1(norm_key(it["title"]).encode()).hexdigest()[:12]
             regions = detect_regions(it["title"], default)
+            places = detect_places(it["title"])
             if aid in by_id:
                 a = by_id[aid]
                 a["regions"] = sorted(set(a["regions"]) | regions)
+                a["places"] = sorted(set(a.get("places", [])) | places)
                 a["trusted"] = bool(a.get("trusted") or trusted)
                 if it["source"] != a["source"] and all(o["source"] != it["source"] for o in a.get("also", [])):
                     a.setdefault("also", []).append({"source": it["source"], "url": it["url"]})
@@ -165,7 +172,7 @@ def collect_articles(existing):
                 by_id[aid] = {
                     "id": aid, "title": it["title"], "url": it["url"], "source": it["source"],
                     "published": it["published"], "first_seen": now.isoformat(timespec="seconds"),
-                    "regions": sorted(regions), "also": [], "trusted": trusted,
+                    "regions": sorted(regions), "places": sorted(places), "also": [], "trusted": trusted,
                 }
         time.sleep(0.4)
     print(f"Kilder: {ok} ok, {failed} feilet")
@@ -240,18 +247,10 @@ def site_url():
     return None
 
 
-def build_notifications(new_articles, new_warnings):
-    """Varsler om nye saker og NVE-varsler i Sogn og Fjordane. Maks fem enkeltvarsler per kjøring."""
+def build_notifications(new_articles):
+    """Varsler om nye mediesaker i Sogn og Fjordane. Maks fem enkeltvarsler per kjøring.
+    NVE/Varsom-varsler sendes ikke som push, bare vist (skjult som standard) på nettsiden."""
     msgs = []
-    for w in new_warnings:
-        name = {2: "gult", 3: "oransje", 4: "rødt"}.get(w["level"], "")
-        msgs.append({
-            "title": f"Skredvarsel ({name} nivå)",
-            "message": ", ".join(w["areas"]) or "Sogn og Fjordane",
-            "click": "https://www.varsom.no/flom-og-jordskred/varsling/",
-            "priority": 4 if w["level"] >= 3 else 3,
-            "tags": ["warning"],
-        })
     if len(new_articles) > 5:
         msgs.append({
             "title": f"{len(new_articles)} nye skredsaker",
@@ -287,7 +286,7 @@ def send_ntfy(msgs):
         time.sleep(0.5)
 
 
-def find_new(prev, articles, warnings):
+def find_new(prev, articles):
     prev_ids = {a["id"] for a in prev.get("articles", [])}
     recent = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)
     new_articles = [
@@ -296,9 +295,7 @@ def find_new(prev, articles, warnings):
         and dt.datetime.fromisoformat(a["published"]) >= recent
     ]
     new_articles.sort(key=lambda a: a["published"])
-    prev_w = {(w["id"], w["level"]) for w in prev.get("warnings", [])}
-    new_warnings = [w for w in warnings if (w["id"], w["level"]) not in prev_w and "sf" in w["regions"]]
-    return new_articles, new_warnings
+    return new_articles
 
 
 def main():
@@ -322,8 +319,8 @@ def main():
     DATA.parent.mkdir(exist_ok=True)
     DATA.write_text(json.dumps(new, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Skrev {len(articles)} saker og {len(warnings)} varsler.")
-    new_articles, new_warnings = find_new(prev, articles, warnings)
-    msgs = build_notifications(new_articles, new_warnings)
+    new_articles = find_new(prev, articles)
+    msgs = build_notifications(new_articles)
     if msgs:
         print(f"Sender {len(msgs)} varsel(er) via ntfy" if os.environ.get("NTFY_TOPIC") else "NTFY_TOPIC er ikke satt – sender ikke varsler")
         send_ntfy(msgs)
