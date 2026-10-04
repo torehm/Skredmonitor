@@ -9,12 +9,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
 :root{
   --bg:#EDF0EE; --surface:#FFFFFF; --ink:#14222A; --muted:#5B6B73; --line:#CBD3D6;
   --link:#0B5C7A; --new:#0B5C7A;
   --lvl2:#F5C400; --lvl3:#F28A1B; --lvl4:#D6322B;
   --lvl2bg:#FFF8D6; --lvl3bg:#FFEBD3; --lvl4bg:#FBDCDA;
+  --sf:#0B5C7A; --ho:#6C4F9C;
 }
 :root:not([data-theme="light"]){}
 @media (prefers-color-scheme: dark){
@@ -22,6 +25,7 @@
     --bg:#0F1A20; --surface:#17252D; --ink:#E6ECEE; --muted:#93A3AB; --line:#2C3D46;
     --link:#7CC4E0; --new:#7CC4E0;
     --lvl2bg:#3A3410; --lvl3bg:#3D2A14; --lvl4bg:#40191A;
+    --sf:#7CC4E0; --ho:#C3AEEA;
   }
 }
 *{box-sizing:border-box}
@@ -38,6 +42,21 @@ h1{margin:0;font-size:1.75rem;font-weight:800;letter-spacing:-.02em;line-height:
 .tabs .n{opacity:.65;font-weight:400;margin-left:4px}
 button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--link);outline-offset:2px}
 
+.viewrow{display:flex;gap:6px;align-items:center;justify-content:space-between;margin:2px 0 14px}
+.viewtoggle{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px}
+.viewtoggle button{border:0;background:transparent;color:var(--ink);font:inherit;font-size:.85rem;font-weight:500;
+  padding:7px 12px;border-radius:6px;cursor:pointer}
+.viewtoggle button[aria-selected="true"]{background:var(--ink);color:var(--bg);font-weight:700}
+.warnpill{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;font-weight:700;border-radius:999px;
+  padding:4px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
+.warnpill.active{background:var(--lvl2bg);border-color:var(--lvl2)}
+.warnpill.l3{background:var(--lvl3bg);border-color:var(--lvl3)}
+.warnpill.l4{background:var(--lvl4bg);border-color:var(--lvl4)}
+.warnpill .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.warnpill.active .dot{background:var(--lvl2)}
+.warnpill.l3 .dot{background:var(--lvl3)}
+.warnpill.l4 .dot{background:var(--lvl4)}
+
 h2{font-size:1rem;font-weight:700;margin:22px 0 8px}
 .warn{background:var(--surface);border:1px solid var(--line);border-left-width:8px;border-radius:8px;padding:12px 14px;margin:0 0 10px}
 .warn.l2{border-left-color:var(--lvl2);background:var(--lvl2bg)}
@@ -46,7 +65,7 @@ h2{font-size:1rem;font-weight:700;margin:22px 0 8px}
 .warn strong{display:block;font-size:.95rem}
 .warn p{margin:4px 0 0;font-size:.9rem}
 .warn .meta{color:var(--muted);font-size:.8rem;margin-top:6px}
-.warnnote{color:var(--muted);font-size:.875rem;margin:0 0 6px}
+.warnnote{color:var(--muted);font-size:.875rem;margin:6px 0}
 
 .day{margin:22px 0 6px;font-size:.85rem;font-weight:700;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:4px;text-transform:none}
 ul{list-style:none;margin:0;padding:0}
@@ -59,7 +78,10 @@ ul{list-style:none;margin:0;padding:0}
 .tag{font-size:.72rem;border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:6px}
 
 details{margin:14px 0}
-summary{cursor:pointer;font-weight:600;font-size:.9rem;padding:6px 0}
+summary{cursor:pointer;font-weight:600;font-size:.9rem;padding:6px 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ ";display:inline-block;transition:transform .15s}
+details[open] summary::before{transform:rotate(90deg)}
 .srcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 12px;padding:6px 0}
 .srcs label{display:flex;gap:8px;align-items:center;font-size:.875rem;padding:6px 0}
 .srcs input{width:18px;height:18px}
@@ -67,6 +89,20 @@ summary{cursor:pointer;font-weight:600;font-size:.9rem;padding:6px 0}
 .err{background:var(--lvl4bg);border:1px solid var(--lvl4);border-radius:8px;padding:10px 12px;font-size:.9rem;margin-top:12px}
 footer{color:var(--muted);font-size:.8rem;margin-top:32px}
 footer a{color:var(--muted)}
+
+#mapview{display:none}
+#mapview.show{display:block}
+#map{height:62vh;min-height:360px;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+.maplegend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:.78rem;color:var(--muted);margin:10px 0 2px}
+.maplegend span{display:inline-flex;align-items:center;gap:6px}
+.maplegend i{width:11px;height:11px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.25)}
+.mapnote{color:var(--muted);font-size:.8rem;margin:8px 0 0}
+.leaflet-popup-content-wrapper{background:var(--surface);color:var(--ink);border-radius:8px}
+.leaflet-popup-tip{background:var(--surface)}
+.popup-t{font-weight:700;font-size:.9rem;margin:0 0 3px;display:block}
+.popup-m{color:var(--muted);font-size:.78rem}
+#list,#listview{display:block}
+#listview.hide{display:none}
 </style>
 </head>
 <body>
@@ -78,11 +114,34 @@ footer a{color:var(--muted)}
 
   <div class="tabs" role="tablist" id="tabs"></div>
 
-  <section id="warnings"></section>
+  <div class="viewrow">
+    <div class="viewtoggle" role="tablist" id="viewtoggle">
+      <button data-view="liste" aria-selected="true">Liste</button>
+      <button data-view="kart" aria-selected="false">Kart</button>
+    </div>
+    <button class="warnpill" id="warnpill" type="button"></button>
+  </div>
+
+  <details id="warnbox"><summary id="warnsum">Skredvarsler frå NVE</summary><div id="warnings"></div></details>
 
   <details id="srcbox"><summary id="srcsum">Kilder</summary><div class="srcs" id="srcs"></div></details>
 
-  <main id="list"></main>
+  <div id="listview">
+    <main id="list"></main>
+  </div>
+
+  <div id="mapview">
+    <div id="map" role="group" aria-label="Kart over skredsaker og skredvarsler"></div>
+    <div class="maplegend">
+      <span><i style="background:var(--sf)"></i>Sak i Sogn og Fjordane</span>
+      <span><i style="background:var(--ho)"></i>Sak i Hordaland</span>
+      <span><i style="background:var(--lvl2)"></i>Gult varsel</span>
+      <span><i style="background:var(--lvl3)"></i>Oransje varsel</span>
+      <span><i style="background:var(--lvl4)"></i>Rødt varsel</span>
+    </div>
+    <p class="mapnote">Saker vises der eit konkret stadnamn er nevnt i tittelen. Plasseringa er omtrentleg (kommunesenter), ikkje nøyaktig hendelsesstad.</p>
+  </div>
+
   <div id="error"></div>
 
   <footer>
@@ -93,17 +152,52 @@ footer a{color:var(--muted)}
   </footer>
 </div>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 const TABS = [["sf","Sogn og Fjordane"],["ho","Hordaland"],["alle","Alle"]];
 const LEVEL = {2:["Gult nivå","l2"],3:["Oransje nivå","l3"],4:["Rødt nivå","l4"]};
+
+// Omtrentlege koordinatar (kommunesenter/tettstad) for stadnamn brukt i config.json
+// og offisielle kommunenamn frå NVE. Brukt berre til kartvisning, ikke for filtrering.
+const COORDS = {
+  "Sogn og Fjordane":[61.45,5.86], "Sogn":[61.23,6.80], "Sunnfjord":[61.4525,5.8569],
+  "Nordfjord":[61.91,6.00], "Kinn":[61.5994,5.0330], "Florø":[61.5994,5.0330], "Flora":[61.5994,5.0330],
+  "Askvoll":[61.3539,5.0657], "Fjaler":[61.3987,5.4106], "Førde":[61.4525,5.8569],
+  "Gloppen":[61.7756,6.2403], "Stryn":[61.9086,6.7193], "Bremanger":[61.8622,5.1206],
+  "Måløy":[61.9357,5.1136], "Stad":[61.9087,6.0000], "Selje":[62.0399,5.2951],
+  "Eid":[61.9087,6.0000], "Nordfjordeid":[61.9087,6.0000], "Hyllestad":[61.1575,5.2831],
+  "Høyanger":[61.2167,6.0833], "Vik i Sogn":[61.0867,6.5814], "Vik":[61.0867,6.5814],
+  "Balestrand":[61.2064,6.5423], "Sogndal":[61.2297,7.0991], "Leikanger":[61.1797,6.8484],
+  "Luster":[61.3833,7.3333], "Lærdal":[61.1028,7.4870], "Årdal":[61.2333,7.7000],
+  "Aurland":[60.9064,7.1861], "Flåm":[60.8619,7.1136], "Solund":[61.0833,4.8333],
+  "Gulen":[61.0167,5.1333], "Jølster":[61.4953,6.4347], "Naustdal":[61.5167,5.7167],
+  "Hornindal":[61.9333,6.4833], "Loen":[61.8667,6.8500], "Fjærland":[61.3978,6.8064],
+  "Hordaland":[60.3913,5.3221], "Bergen":[60.3913,5.3221], "Askøy":[60.4457,5.2089],
+  "Øygarden":[60.5333,4.8667], "Sotra":[60.3339,5.1225], "Alver":[60.5375,5.2847],
+  "Osterøy":[60.5167,5.6000], "Vaksdal":[60.6333,5.7167], "Voss":[60.6293,6.4152],
+  "Kvam":[60.3667,6.1500], "Ullensvang":[60.0683,6.5467], "Odda":[60.0683,6.5467],
+  "Eidfjord":[60.4667,7.0833], "Ulvik":[60.5667,6.9000], "Granvin":[60.5333,6.7333],
+  "Hardanger":[60.0683,6.5467], "Kvinnherad":[59.9833,6.0333], "Etne":[59.6667,5.9333],
+  "Sveio":[59.5667,5.4000], "Stord":[59.7833,5.4833], "Bømlo":[59.7667,5.2167],
+  "Fitjar":[59.9167,5.3167], "Tysnes":[59.9833,5.6167], "Austevoll":[60.0833,5.2000],
+  "Bjørnafjorden":[60.1833,5.4667], "Os":[60.1833,5.4667], "Samnanger":[60.4000,5.8167],
+  "Modalen":[60.7333,5.8333], "Masfjorden":[60.8667,5.4500], "Austrheim":[60.7667,4.9167],
+  "Fedje":[60.7667,4.7000], "Lindås":[60.5375,5.2847], "Radøy":[60.6000,5.0667],
+  "Meland":[60.5000,5.2000], "Nordhordland":[60.5375,5.2847], "Sunnhordland":[59.7833,5.4833],
+  "Vestland":[60.90,6.00]
+};
+
 const store = {
   get(k, d){ try{ const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); }catch(e){ return d; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
 };
 let data = {articles:[], warnings:[]};
 let tab = store.get("tab","sf");
+let view = store.get("view","liste");
 let hidden = new Set(store.get("hidden",[]));
 const lastVisit = store.get("lastVisit", 0);
+let map = null, mapLayer = null;
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const inTab = regions => tab === "alle" || (regions || []).includes(tab);
@@ -121,6 +215,12 @@ function fmtValid(w){
   const f = x => x ? new Date(x).toLocaleDateString("nb-NO",{weekday:"short",day:"numeric",month:"short"}) : "";
   return w.valid_from ? `Gjelder ${f(w.valid_from)}${w.valid_to && f(w.valid_to)!==f(w.valid_from) ? " – "+f(w.valid_to) : ""}` : "";
 }
+// Liten, deterministisk forskyving så fleire saker på same stad ikke ligg nøyaktig oppå kvarandre
+function jitter(id, lat, lon){
+  let h = 0; for (let i=0;i<id.length;i++) h = (h*31 + id.charCodeAt(i)) >>> 0;
+  const a = (h % 1000)/1000 * Math.PI * 2, r = 0.012 + (h % 7) * 0.002;
+  return [lat + Math.sin(a)*r, lon + Math.cos(a)*r*1.8];
+}
 
 function renderTabs(){
   const el = document.getElementById("tabs");
@@ -131,14 +231,36 @@ function renderTabs(){
   el.querySelectorAll("button").forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set("tab",tab); render(); });
 }
 
-function renderWarnings(){
-  const el = document.getElementById("warnings");
-  const ws = (data.warnings || []).filter(w => inTab(w.regions));
-  let html = `<h2>Skredvarsler fra NVE</h2>`;
+function activeWarnings(){
+  return (data.warnings || []).filter(w => inTab(w.regions));
+}
+
+function renderWarnPill(){
+  const ws = activeWarnings();
+  const el = document.getElementById("warnpill");
+  const box = document.getElementById("warnbox");
   if (!ws.length){
-    html += `<p class="warnnote">Ingen aktive varsler på gult nivå eller høyere for dette området de neste tre dagene. <a href="https://www.varsom.no/flom-og-jordskred/" rel="noopener">Åpne Varsom</a></p>`;
+    el.className = "warnpill"; el.textContent = "Ingen aktive varsel";
+    el.onclick = () => { box.open = true; box.scrollIntoView({behavior:"smooth", block:"nearest"}); };
+    return;
+  }
+  const top = ws[0];
+  const cls = top.level >= 4 ? "l4" : top.level >= 3 ? "l3" : "active";
+  const label = {2:"Gult",3:"Oransje",4:"Rødt"}[top.level] || "Varsel";
+  el.className = "warnpill " + cls;
+  el.innerHTML = `<span class="dot"></span>${label} skredvarsel${ws.length>1 ? ` (+${ws.length-1})` : ""}`;
+  el.onclick = () => { box.open = true; box.scrollIntoView({behavior:"smooth", block:"nearest"}); };
+}
+
+function renderWarnings(){
+  const ws = activeWarnings();
+  const el = document.getElementById("warnings");
+  document.getElementById("warnsum").textContent = ws.length ? `Skredvarsler frå NVE (${ws.length} aktive)` : "Skredvarsler frå NVE";
+  let html = "";
+  if (!ws.length){
+    html = `<p class="warnnote">Ingen aktive varsler på gult nivå eller høyere for dette området de neste tre dagene. <a href="https://www.varsom.no/flom-og-jordskred/" rel="noopener">Åpne Varsom</a></p>`;
   } else {
-    html += ws.map(w => {
+    html = ws.map(w => {
       const [name, cls] = LEVEL[w.level] || ["Varsel","l2"];
       return `<div class="warn ${cls}"><strong>${name}: ${esc(w.areas.join(", ") || "Vestland")}</strong>
         ${w.text ? `<p>${esc(w.text)}</p>` : ""}
@@ -179,20 +301,91 @@ function renderList(){
   el.innerHTML = html + "</ul>";
 }
 
-function render(all=true){
-  renderTabs(); renderWarnings(); renderList();
-  if (all) renderSources();
+function ensureMap(){
+  if (map) return;
+  map = L.map("map", {scrollWheelZoom:true}).setView([61.0,6.2], 7);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>'
+  }).addTo(map);
+  mapLayer = L.layerGroup().addTo(map);
 }
+
+function warnColor(level){ return level >= 4 ? "#D6322B" : level >= 3 ? "#F28A1B" : "#F5C400"; }
+
+function renderMap(){
+  ensureMap();
+  mapLayer.clearLayers();
+  const bounds = [];
+
+  activeWarnings().forEach(w => {
+    (w.areas.length ? w.areas : ["Vestland"]).forEach(name => {
+      const c = COORDS[name];
+      if (!c) return;
+      const marker = L.circleMarker(c, {
+        radius: 15 + w.level*2, color: warnColor(w.level), weight: 1,
+        fillColor: warnColor(w.level), fillOpacity: 0.28
+      }).addTo(mapLayer);
+      const [lvlName] = LEVEL[w.level] || ["Varsel"];
+      marker.bindPopup(`<span class="popup-t">${esc(lvlName)}: ${esc(name)}</span>
+        <span class="popup-m">${esc(fmtValid(w))}</span><br>
+        <a href="https://www.varsom.no/flom-og-jordskred/varsling/" rel="noopener">Åpne Varsom</a>`);
+      bounds.push(c);
+    });
+  });
+
+  const items = data.articles.filter(a => !hidden.has(a.source) && inTab(a.regions));
+  items.forEach(a => {
+    const place = (a.places || [])[0];
+    const base = place && COORDS[place];
+    if (!base) return;
+    const pos = jitter(a.id, base[0], base[1]);
+    const color = a.regions.includes("sf") ? "#0B5C7A" : a.regions.includes("ho") ? "#6C4F9C" : "#5B6B73";
+    const marker = L.circleMarker(pos, {
+      radius: 7, color: "#fff", weight: 1.5, fillColor: color, fillOpacity: 0.95
+    }).addTo(mapLayer);
+    marker.bindPopup(`<span class="popup-t">${esc(a.title)}</span>
+      <span class="popup-m">${esc(a.source)} · ${esc(place)}</span><br>
+      <a href="${esc(a.url)}" rel="noopener" target="_blank">Les saken</a>`);
+    marker.on("click", () => marker.openPopup());
+    bounds.push(pos);
+  });
+
+  if (bounds.length) map.fitBounds(bounds, {padding:[24,24], maxZoom:11});
+  else map.setView([61.0,6.2], 7);
+  setTimeout(() => map.invalidateSize(), 50);
+}
+
+function renderViewToggle(){
+  document.querySelectorAll("#viewtoggle button").forEach(b => {
+    b.setAttribute("aria-selected", b.dataset.view === view);
+    b.onclick = () => { view = b.dataset.view; store.set("view", view); applyView(); };
+  });
+}
+function applyView(){
+  document.getElementById("listview").classList.toggle("hide", view !== "liste");
+  document.getElementById("mapview").classList.toggle("show", view === "kart");
+  if (view === "kart") renderMap();
+}
+
+function render(all=true){
+  renderTabs(); renderWarnPill(); renderWarnings(); renderList();
+  if (all) renderSources();
+  if (view === "kart") renderMap();
+}
+
+renderViewToggle();
 
 fetch("data.json", {cache:"no-store"}).then(r => r.json()).then(d => {
   data = d;
   const t = d.updated ? new Date(d.updated).toLocaleString("nb-NO",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}) : "";
   document.getElementById("updated").textContent = t ? `Data sist endret ${t}` : "Ingen data ennå";
   render();
+  applyView();
 }).catch(() => {
   document.getElementById("updated").textContent = "Ingen data ennå";
   document.getElementById("error").innerHTML = `<div class="err">Fant ikke data.json. Kjør oppdateringen (GitHub Actions) minst én gang.</div>`;
   render();
+  applyView();
 });
 
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") store.set("lastVisit", Date.now()); });
