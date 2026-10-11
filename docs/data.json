@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "a4fedad67f44",
+   "title": "Askvoll, Ras | Gravplassen framleis sperra. Velforeininga bekymra for dødsfall",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXYyd25PaW9yMDRSY0poR1paMnNTOGNsMnpmWDE0ZEpzb1lZTUpPVFlnTUMxWFhyaDdSbUVKbzd3MW02cVlVYzFxS3AxS19uRHprLUpnR0gtc21yMWNmRkhQeGFJdU1DTW5TbUw4TEFLdl9lV0I2dFU1NFF0QkdsUDlEZk5sUGxGRVVZOWxUaTVpTGlsTVlidDBNeS1MQQ?oc=5",
+   "source": "Firda",
+   "published": "2026-10-11T22:20:00+00:00",
+   "first_seen": "2026-10-11T22:44:00+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Askvoll"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "2ce76724116d",
    "title": "Hendelser og ulykker, Nordre Aker | Advarer: Ras i trappa",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXckM0SWF1ZTgzTkk0NW55aE1iNFN0NGdFOGl3d21KSXQ0dWI3SnA1QmVIdGVoZ293MHVMV3FxQUZ2WG9peTFYOUdoZ2hVLVpQZ1VMUXE4TzRZdnJMa3dhd2F6aw?oc=5",
@@ -436,5 +452,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-10T12:15:27+00:00"
+ "updated": "2026-10-11T22:44:42+00:00"
 }
