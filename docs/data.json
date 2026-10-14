@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "c7e97bab8e49",
+   "title": "Nyhende, Farevarsel | I natt opnar himmelen seg: Varslar skredfare",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdS0wTXdRV1MxNmctWVVNUkNvTkdNVTlLQkRpazc5Wk1DaEVyYjBQVWlUYS12cWRTSU5vZkpjM1UwM3BlSTBjcUJ3dEt4Mm5IZWVKT3Z5endkUW1wblVDdUNDb29UNkRmOHJvSzFFclRVNi1oNzVsODdnZWtqemtWNGVieXZ6U2xhaDN3YndB?oc=5",
+   "source": "Kvinnheringen",
+   "published": "2026-10-14T08:36:30+00:00",
+   "first_seen": "2026-10-14T08:52:59+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "a4fedad67f44",
    "title": "Askvoll, Ras | Gravplassen framleis sperra. Velforeininga bekymra for dødsfall",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXYyd25PaW9yMDRSY0poR1paMnNTOGNsMnpmWDE0ZEpzb1lZTUpPVFlnTUMxWFhyaDdSbUVKbzd3MW02cVlVYzFxS3AxS19uRHprLUpnR0gtc21yMWNmRkhQeGFJdU1DTW5TbUw4TEFLdl9lV0I2dFU1NFF0QkdsUDlEZk5sUGxGRVVZOWxUaTVpTGlsTVlidDBNeS1MQQ?oc=5",
@@ -947,5 +961,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T08:14:00+00:00"
+ "updated": "2026-10-14T08:53:41+00:00"
 }
