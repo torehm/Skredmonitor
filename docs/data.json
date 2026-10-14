@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "b1ed1718e5a6",
+   "title": "Ras, Trafikk | Veg stengd – steinblokk i vegen",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVDdlN3MzMFFYNTJhNFVFZ2Q4QTF0cjJHZVA1dTl4WWZtRk1rS055dG91MUNCb3cyQ2lpNHpxeGIzcEV6cG43UUNxVFd2dDhEQWZGVkpFeE1lblg1MVdHZl90OTZkcDZWU1cwN2czTlh3UGhQUUQzT1ludw?oc=5",
+   "source": "Kvinnheringen",
+   "published": "2026-10-14T10:15:28+00:00",
+   "first_seen": "2026-10-14T10:45:43+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "c7e97bab8e49",
    "title": "Nyhende, Farevarsel | I natt opnar himmelen seg: Varslar skredfare",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdS0wTXdRV1MxNmctWVVNUkNvTkdNVTlLQkRpazc5Wk1DaEVyYjBQVWlUYS12cWRTSU5vZkpjM1UwM3BlSTBjcUJ3dEt4Mm5IZWVKT3Z5endkUW1wblVDdUNDb29UNkRmOHJvSzFFclRVNi1oNzVsODdnZWtqemtWNGVieXZ6U2xhaDN3YndB?oc=5",
@@ -961,5 +975,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T08:53:41+00:00"
+ "updated": "2026-10-14T10:46:24+00:00"
 }
