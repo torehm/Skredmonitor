@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "8b086dbc12eb",
+   "title": "Ras, Trafikk | Veg måtte stengast på grunn av steinblokk i vegbana",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVDdlN3MzMFFYNTJhNFVFZ2Q4QTF0cjJHZVA1dTl4WWZtRk1rS055dG91MUNCb3cyQ2lpNHpxeGIzcEV6cG43UUNxVFd2dDhEQWZGVkpFeE1lblg1MVdHZl90OTZkcDZWU1cwN2czTlh3UGhQUUQzT1ludw?oc=5",
+   "source": "Kvinnheringen",
+   "published": "2026-10-14T12:10:07+00:00",
+   "first_seen": "2026-10-14T14:03:13+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "733dbaed4be9",
    "title": "(+) Veg stengt etter steinsprang",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UTUs2SjdHT0hvV2d2ODlxb2V4WndFNXl5TU5OcTF4ZWFRQWFFLU5ESXJHamF5aXhuTlJvTDZ6a0ZoRU13UzlTbVJTMHo3dVFDZmRBc2ZFN3IwVllRbjFmekFBbnAtLXJzMW85UjUzRHN3VUU?oc=5",
@@ -988,5 +1002,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T13:19:44+00:00"
+ "updated": "2026-10-14T14:04:01+00:00"
 }
