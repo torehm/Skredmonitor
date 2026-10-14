@@ -15,6 +15,20 @@
    "trusted": false
   },
   {
+   "id": "e1d4f51f59c9",
+   "title": "Fare for skred – stengjer gang- og sykkelveg",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTnRVNnZlbFExWkl6WGFLUEVFUU9TdWo3cnNvN2lQTGNJT3FFV3IxMGp2bTFNTFlTYlRBcy13dVVZWklnektHSjhmUmJzbTlJaFZlYUlnNjl3a21nRnZKeG9wZXdDTk1qWHhmMDM1NURLMTdWb3MyNXV6MFVzUE1qNmtITlVHbHJD?oc=5",
+   "source": "porten.no",
+   "published": "2026-10-14T10:59:24+00:00",
+   "first_seen": "2026-10-14T12:39:16+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "b1ed1718e5a6",
    "title": "Ras, Trafikk | Veg stengd – steinblokk i vegen",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVDdlN3MzMFFYNTJhNFVFZ2Q4QTF0cjJHZVA1dTl4WWZtRk1rS055dG91MUNCb3cyQ2lpNHpxeGIzcEV6cG43UUNxVFd2dDhEQWZGVkpFeE1lblg1MVdHZl90OTZkcDZWU1cwN2czTlh3UGhQUUQzT1ludw?oc=5",
@@ -989,5 +1003,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T12:00:17+00:00"
+ "updated": "2026-10-14T12:40:00+00:00"
 }
