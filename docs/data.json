@@ -489,21 +489,6 @@
     }
    ],
    "trusted": false
-  },
-  {
-   "id": "af7c3a22227d",
-   "title": "Massivt skred i Jotunheimen: – Som å vere i Himalaya",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVBjT3AzTi1jaGxlczZHNnF3ejZCWi13VGFsaXhqXy1hNWlYWGtuaUVHSjA3MkJHUTlvM2VkVmRwNUhDbVRuSUUydTNUMUkta21NX2xsVlhvalNFaDlDbXVXTkhpNUtoYzVJSklhaUtqSnItcmtTYm9paWVFQkwtdjdIejNTOVV3VzVlLThoX2pjR0N5ckp1ek1QMmNpZUZ4RlliQkJYU29Gc19zLVBz?oc=5",
-   "source": "NRK",
-   "published": "2026-09-23T12:57:15+00:00",
-   "first_seen": "2026-09-28T11:47:19+00:00",
-   "regions": [
-    "annet",
-    "ho",
-    "sf"
-   ],
-   "also": [],
-   "trusted": true
   }
  ],
  "warnings": [
@@ -1003,5 +988,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T12:40:00+00:00"
+ "updated": "2026-10-14T13:19:44+00:00"
 }
