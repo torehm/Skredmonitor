@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "f20dd61b0018",
+   "title": "Advarer mot flom og skred: – Her blir det verst",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXdacVlRYk43VVVrU21aZ0pVeWVuXzhOREFPaUJCUktYeWNpckh6QnY2QUIydlFyeXM1UjRHNWZ0QVM1Vi1PTkkyZ1BDUDZ0MGZQVW84OGkzRmdEa2Z3MVFDd0pERGdUTHd3MF9BdEpFQ1NQWC1SczJiUndqVnZIZGJvLVRaVUJK?oc=5",
+   "source": "TV 2",
+   "published": "2026-10-15T08:31:34+00:00",
+   "first_seen": "2026-10-15T08:47:51+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "8b086dbc12eb",
    "title": "Ras, Trafikk | Veg måtte stengast på grunn av steinblokk i vegbana",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVDdlN3MzMFFYNTJhNFVFZ2Q4QTF0cjJHZVA1dTl4WWZtRk1rS055dG91MUNCb3cyQ2lpNHpxeGIzcEV6cG43UUNxVFd2dDhEQWZGVkpFeE1lblg1MVdHZl90OTZkcDZWU1cwN2czTlh3UGhQUUQzT1ludw?oc=5",
@@ -1002,5 +1016,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-14T14:04:01+00:00"
+ "updated": "2026-10-15T08:48:35+00:00"
 }
