@@ -1,6 +1,39 @@
 {
  "articles": [
   {
+   "id": "52a3b8154188",
+   "title": "Flåm, Aurland | Høyrde mogleg ras i Flåm",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZSGdOT1JWUUV5NldfdmwyMUdZSFB5aktkUEczelRsd2dHWXdQNzJsX09BSnZmVnJzVzNXVGNkdUVudUs2enVkclRSall6MFBtTnB2RDVHT0NhRUJ3SjgzNG9ZVmdQZjQ?oc=5",
+   "source": "Sogn Avis",
+   "published": "2026-10-15T19:02:19+00:00",
+   "first_seen": "2026-10-15T19:16:43+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Aurland",
+    "Flåm"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "6806dbfe06bb",
+   "title": "Nyheter, Politi | Meldt om mulig ras i Flåm",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTc1kxZEU5MGVEVXhnMzJYZ2FvUTZVcHcwT3cxT29LT3V2bnRISlE1aEo4U1kwWG00SVlNbVlybW1zSTRtVHlVeVJCaXctWUx1Z3Y0OGJRSXZfQVdyUVhQN1Z4RkRPaUU?oc=5",
+   "source": "Bergensavisen",
+   "published": "2026-10-15T18:59:27+00:00",
+   "first_seen": "2026-10-15T19:16:43+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Flåm"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "f20dd61b0018",
    "title": "Advarer mot flom og skred: – Her blir det verst",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXdacVlRYk43VVVrU21aZ0pVeWVuXzhOREFPaUJCUktYeWNpckh6QnY2QUIydlFyeXM1UjRHNWZ0QVM1Vi1PTkkyZ1BDUDZ0MGZQVW84OGkzRmdEa2Z3MVFDd0pERGdUTHd3MF9BdEpFQ1NQWC1SczJiUndqVnZIZGJvLVRaVUJK?oc=5",
@@ -1016,5 +1049,5 @@
   }
  ],
  "warnings_error": null,
- "updated": "2026-10-15T08:48:35+00:00"
+ "updated": "2026-10-15T19:17:26+00:00"
 }
