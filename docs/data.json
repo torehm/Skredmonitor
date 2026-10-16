@@ -17,6 +17,22 @@
    "trusted": false
   },
   {
+   "id": "3a7849748bd0",
+   "title": "Melding om ras i underjordisk tunnel i Samnanger",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUmN5NFotWTQ1WFA2NVVqczhMckZaclF2V01GOTZULTc1c0hHLUZfLVhVamVydmo5RkNLUkFNSFdzTW54aHU3YzN4eTMxT2c0Y2pmajZFSUctMElqNDNoZ1FGdEJkdmRTeUdqVTlXMzJFLWhERG5sMUpLNHRMSnZHOWJIdi1INjVzbWl0ZVNn?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-10-16T18:32:53+00:00",
+   "first_seen": "2026-10-16T19:54:27+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Samnanger"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "c0fe38212a20",
    "title": "Steinras i Høyanger",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzUkJZanVyZlVrUDl3OWs2cmtRclVsN2JKRW42WHBOSmdnWm9mYlRETkhGenp1MHhsLVVyVnZReE1kMUhKd0xJWVhPNzhkRmZmUG5FNm90UGdwbS1FMDNJcmZCY2M5NHdfakxoTG5jcUFoUnBUSnNaWlVB?oc=5",
@@ -631,5 +647,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-16T18:50:14+00:00"
+ "updated": "2026-10-16T19:55:12+00:00"
 }
