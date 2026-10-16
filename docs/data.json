@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "a7ae637cd8f0",
+   "title": "Nyheter, Ras | Brakkerigg falt i synkehull etter ras: Fire arbeidere kom seg ut vindu",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3NW5jcFgxQ25kV2NaU1BfOTdyUFptYjVCdFZYeW1QYkk3UVBmZ3JkVUJ3Yzk4cGIyVTN2YXVoSU9XSmZkTGVqZEw0SG1nc3pHbVg1aTdhWFF0SmRLQ3ZnYTFFRXNDeVFfNktFTFhQZkdpSGNfTXRB?oc=5",
+   "source": "Bergensavisen",
+   "published": "2026-10-16T20:05:34+00:00",
+   "first_seen": "2026-10-16T20:20:41+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "023e5ebd5d4d",
    "title": "Nyheter, Ras | Ras i Samnanger: – Oppstått et synkehull",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3NW5jcFgxQ25kV2NaU1BfOTdyUFptYjVCdFZYeW1QYkk3UVBmZ3JkVUJ3Yzk4cGIyVTN2YXVoSU9XSmZkTGVqZEw0SG1nc3pHbVg1aTdhWFF0SmRLQ3ZnYTFFRXNDeVFfNktFTFhQZkdpSGNfTXRB?oc=5",
@@ -647,5 +661,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-16T19:55:12+00:00"
+ "updated": "2026-10-16T20:21:25+00:00"
 }
