@@ -1,6 +1,36 @@
 {
  "articles": [
   {
+   "id": "31ace0b17736",
+   "title": "Steinras i Høyanger. Vegen er stengd",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzUkJZanVyZlVrUDl3OWs2cmtRclVsN2JKRW42WHBOSmdnWm9mYlRETkhGenp1MHhsLVVyVnZReE1kMUhKd0xJWVhPNzhkRmZmUG5FNm90UGdwbS1FMDNJcmZCY2M5NHdfakxoTG5jcUFoUnBUSnNaWlVB?oc=5",
+   "source": "Firda",
+   "published": "2026-10-16T15:16:23+00:00",
+   "first_seen": "2026-10-16T15:23:35+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Høyanger"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "9e48e55f1b0d",
+   "title": "Vegløp stengt etter ras",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6VVBHTmJMLVdyN3ZPbllRRE9EUnZKUUFWNUJHUE5YMy0yWnNNV00tOVRHM1NpV3piTnhhQW1JWngxTFhyNFR5VFZ4LWo1aGk4NWd3LVhMa3VhR2FjeEM0U3pWNENHOEVqOVNnWkE1UQ?oc=5",
+   "source": "NRK",
+   "published": "2026-10-16T15:13:05+00:00",
+   "first_seen": "2026-10-16T15:23:35+00:00",
+   "regions": [
+    "annet"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": true
+  },
+  {
    "id": "4bad0969eb09",
    "title": "Høyrde buldring i fjellet: Rykte ut til mogleg ras",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTTRKakFScm43YnV1b0MwU1FxbW5yRVBaSGhDMHV2bHA2b3Q0Q3BvYXYxYUpuczdnbjZWYzZwazJqOWI4WUNBRWVuWnlpQzBRTU5CM0l1aW5pd0Y3VDFXVWNYV2tacHdETnJwNlBtQ0twTjJsd3ZkMDFDWjhUTi05R2JfSE1tdm9QRHV6X19iRXFUTDJo?oc=5",
@@ -55,7 +85,8 @@
    "published": "2026-10-15T08:31:34+00:00",
    "first_seen": "2026-10-15T08:47:51+00:00",
    "regions": [
-    "ho"
+    "ho",
+    "sf"
    ],
    "places": [],
    "also": [],
@@ -568,5 +599,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-16T00:01:08+00:00"
+ "updated": "2026-10-16T15:24:23+00:00"
 }
