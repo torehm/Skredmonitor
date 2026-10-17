@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "a65b5e781d7f",
+   "title": "Synkehull har utvidet seg etter tunnel-ras fredag – kan måtte evakuere",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94UWFjd01adzRnQ0tLQTBidXRjMkpVUGNvQi1lTWV0ZmxVZjlnS09LcUxqWVA4NTFXQ3VTRmlwNjF1SnE1ZmNSQWJfMDQzM05URXY2QjNrWF82bTlkWGlzSndoZTc4LXI5clRBZFFYbnZMVVlfNHYteg?oc=5",
+   "source": "VG",
+   "published": "2026-10-17T20:46:11+00:00",
+   "first_seen": "2026-10-17T22:03:04+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "a7ae637cd8f0",
    "title": "Nyheter, Ras | Brakkerigg falt i synkehull etter ras: Fire arbeidere kom seg ut vindu",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3NW5jcFgxQ25kV2NaU1BfOTdyUFptYjVCdFZYeW1QYkk3UVBmZ3JkVUJ3Yzk4cGIyVTN2YXVoSU9XSmZkTGVqZEw0SG1nc3pHbVg1aTdhWFF0SmRLQ3ZnYTFFRXNDeVFfNktFTFhQZkdpSGNfTXRB?oc=5",
@@ -657,5 +671,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-17T18:00:56+00:00"
+ "updated": "2026-10-17T22:03:50+00:00"
 }
