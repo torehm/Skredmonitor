@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "1e23583eb587",
+   "title": "Ferdig med å skredsikre Fjæra",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcnEzVWpxMHdjM2RlZ0dHdFNMNVJ4VGdqNW1oR2toeEJoU1dSRFpMRTlEeHU3RFF5QmJFbnpKeXFnS082ZU1CejRBNE5pQ2RicEtyWEdsc2RTNUNaa3RoMmRiQWpfemRYT2JCM3Zib1lYakZrUHhtSDdB?oc=5",
+   "source": "NRK",
+   "published": "2026-10-21T09:51:23+00:00",
+   "first_seen": "2026-10-21T10:27:06+00:00",
+   "regions": [
+    "annet",
+    "ho",
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": true
+  },
+  {
    "id": "a65b5e781d7f",
    "title": "Synkehull har utvidet seg etter tunnel-ras fredag – kan måtte evakuere",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94UWFjd01adzRnQ0tLQTBidXRjMkpVUGNvQi1lTWV0ZmxVZjlnS09LcUxqWVA4NTFXQ3VTRmlwNjF1SnE1ZmNSQWJfMDQzM05URXY2QjNrWF82bTlkWGlzSndoZTc4LXI5clRBZFFYbnZMVVlfNHYteg?oc=5",
@@ -655,5 +671,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-21T04:27:37+00:00"
+ "updated": "2026-10-21T10:27:50+00:00"
 }
