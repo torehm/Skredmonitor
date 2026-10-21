@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "d63c24518e7c",
+   "title": "Her lyttar Einar etter ras i fjellsida",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOUZ6LV85VWFuandTWGhrbEszZlJMUTRsOXV0d0hvQWdwY05GYkpjRFFDYWFKcE0xM05XejN5bjZOa0pReGVuUjlUR29qMlZ6UmthdXBINmJsQzhFZm5ZZlViOFQ3TWZvb2dlRjhNbHFmLXBrY2diUEx2aW1zZVBTU0FPNWJuaDh4dF9NWA?oc=5",
+   "source": "Hordaland",
+   "published": "2026-10-21T10:04:41+00:00",
+   "first_seen": "2026-10-21T12:30:14+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "1e23583eb587",
    "title": "Ferdig med å skredsikre Fjæra",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcnEzVWpxMHdjM2RlZ0dHdFNMNVJ4VGdqNW1oR2toeEJoU1dSRFpMRTlEeHU3RFF5QmJFbnpKeXFnS082ZU1CejRBNE5pQ2RicEtyWEdsc2RTNUNaa3RoMmRiQWpfemRYT2JCM3Zib1lYakZrUHhtSDdB?oc=5",
@@ -671,5 +685,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-21T10:27:50+00:00"
+ "updated": "2026-10-21T12:31:02+00:00"
 }
