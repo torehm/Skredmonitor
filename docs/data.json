@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "3363f30ff544",
+   "title": "Statens vegvesen, Ras | Skredsikringa i Fjæra er i hamn",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSG9FSm5BOGJzcGc2REQwZGJwNnFxdFo2TVFRdUs5RmtUZkNmUy1TUTh2YXNaZkwwTnpOQm1LSEtnUkFRTTBXR3VJUXJMVnFiZW0xRVljMzlvMG9tRlJBOG1GODduVFJwZVdZbmRPZGs3enZBSGMzRWVwRDBncERDTjZZT2JiekU?oc=5",
+   "source": "Hardanger Folkeblad",
+   "published": "2026-10-21T13:24:15+00:00",
+   "first_seen": "2026-10-21T14:07:37+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "d63c24518e7c",
    "title": "Her lyttar Einar etter ras i fjellsida",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOUZ6LV85VWFuandTWGhrbEszZlJMUTRsOXV0d0hvQWdwY05GYkpjRFFDYWFKcE0xM05XejN5bjZOa0pReGVuUjlUR29qMlZ6UmthdXBINmJsQzhFZm5ZZlViOFQ3TWZvb2dlRjhNbHFmLXBrY2diUEx2aW1zZVBTU0FPNWJuaDh4dF9NWA?oc=5",
@@ -685,5 +699,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-21T12:31:02+00:00"
+ "updated": "2026-10-21T14:08:22+00:00"
 }
