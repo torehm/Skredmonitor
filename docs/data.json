@@ -59,6 +59,20 @@
    "trusted": true
   },
   {
+   "id": "3a10c5d333b4",
+   "title": "Porsgrunn: Beboere evakueres etter ras",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbzVhTV9ndm1YOTQ3ZWV5WFM5UFFZWFBGaURnT1N5SU51UkhraXdIMEw4c3ZZVFF4cUYzOFZzWlJ2cE9oNUFjWThuV3RfMEZwRDdhVEU2Nnl6c2pfaE5fUkQyMVUwRVhqLVBRekpydGs4YlJob2xiVUUxaEpfU05aRHFJQ0ZHUDlTWksxTFFDR3pIUlBHQnZOM2I5TlJQUQ?oc=5",
+   "source": "Dagbladet",
+   "published": "2026-10-20T07:00:00+00:00",
+   "first_seen": "2026-10-22T15:04:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "a65b5e781d7f",
    "title": "Synkehull har utvidet seg etter tunnel-ras fredag – kan måtte evakuere",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94UWFjd01adzRnQ0tLQTBidXRjMkpVUGNvQi1lTWV0ZmxVZjlnS09LcUxqWVA4NTFXQ3VTRmlwNjF1SnE1ZmNSQWJfMDQzM05URXY2QjNrWF82bTlkWGlzSndoZTc4LXI5clRBZFFYbnZMVVlfNHYteg?oc=5",
@@ -713,5 +727,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-22T08:10:04+00:00"
+ "updated": "2026-10-22T15:05:03+00:00"
 }
