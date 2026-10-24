@@ -686,60 +686,9 @@
    ],
    "trusted": false,
    "places": []
-  },
-  {
-   "id": "b4ce98ace505",
-   "title": "Vêr, Gult farevarsel | Fare for flaum og skred i Vestland",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb04xQ3RiQVh0ZWdhSEpMelhmX1k5eVVGSlVmZjFReFhkTmFOZy1uU0ZjTFl2bjVGcjFRU0drRzUwb0FVYnNVaU51d1NyT1VReno4RzhZRnBWZklzekpsc1B6WlBKMXBQVlMxMGNPYi1mVFBZMGkzSkJXZng1VWhPNVNZQWtwdEE?oc=5",
-   "source": "Hordaland",
-   "published": "2026-10-03T09:40:10+00:00",
-   "first_seen": "2026-10-03T18:53:54+00:00",
-   "regions": [
-    "annet",
-    "ho"
-   ],
-   "also": [
-    {
-     "source": "Hardanger Folkeblad",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW9icXV6Y2d4MEplNFdYVGk0dEpFVkhVX3A3SWxubHRFTHNvS3FmNEhpa1prM2hlbDZsaU43RktTdzdVQ0pneVp0SC1uaENrT0FPRzFIY20zT0R6LVdTNXk1T0pDQ0lNbWNHblVjbDZlT2FlSkY3NUJLbnlkcnVUTWYtSGUwbDV0RXl3Yg?oc=5"
-    },
-    {
-     "source": "avisa-hordaland.no",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb04xQ3RiQVh0ZWdhSEpMelhmX1k5eVVGSlVmZjFReFhkTmFOZy1uU0ZjTFl2bjVGcjFRU0drRzUwb0FVYnNVaU51d1NyT1VReno4RzhZRnBWZklzekpsc1B6WlBKMXBQVlMxMGNPYi1mVFBZMGkzSkJXZng1VWhPNVNZQWtwdEE?oc=5"
-    },
-    {
-     "source": "hardanger-folkeblad.no",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW9icXV6Y2d4MEplNFdYVGk0dEpFVkhVX3A3SWxubHRFTHNvS3FmNEhpa1prM2hlbDZsaU43RktTdzdVQ0pneVp0SC1uaENrT0FPRzFIY20zT0R6LVdTNXk1T0pDQ0lNbWNHblVjbDZlT2FlSkY3NUJLbnlkcnVUTWYtSGUwbDV0RXl3Yg?oc=5"
-    }
-   ],
-   "trusted": false,
-   "places": []
-  },
-  {
-   "id": "a3a8c1fd1a32",
-   "title": "Fare for flom og skred i Vestland",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UUk9xb05Zem9aM004ZUhyVkJDZjMyNFBJZE1GMnF6Rl9KZk4wb21OWVFmd0ktZDUyRE5xU2FJZHlLY0ZfNXdnMjNOUEUyYXc?oc=5",
-   "source": "NRK",
-   "published": "2026-10-03T09:29:45+00:00",
-   "first_seen": "2026-10-03T09:32:36+00:00",
-   "regions": [
-    "annet"
-   ],
-   "also": [
-    {
-     "source": "NRK Vestland",
-     "url": "https://www.nrk.no/vestland/fare-for-flom-og-skred-i-vestland--1.18044301"
-    },
-    {
-     "source": "nrk.no",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwLVZpR0dvTmgzS3hzNTFVdWZnMW53TExjeW1fd3IzVTFKWTZueE1yZDdXV0g3Z1ZXTF9VMkFqOUhLMVRBcFdBLXpCNWtoSHRZb1lhSDVqVmJPWGFKTGN4M3RnVGVfUm1MUXRuWjdSYWU2N0NrNVZKaEgyWU9vdw?oc=5"
-    }
-   ],
-   "trusted": true,
-   "places": []
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-23T16:48:02+00:00"
+ "updated": "2026-10-24T09:43:42+00:00"
 }
