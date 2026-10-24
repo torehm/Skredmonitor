@@ -646,30 +646,9 @@
    ],
    "trusted": false,
    "places": []
-  },
-  {
-   "id": "e5c95b7c5c5f",
-   "title": "Ver og vind, Kinn kommune | Fare for flaum og skred",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zSUNaaEZHNUxCdGFRR0pmbjJKZ3pBTGd2S1FmSHFudlA5WGwyZndkS1RNQXFDaW5PNks5a1JHSkR4M1FvVVhZNDdVQ0VtNl84MXZYWjZJMHhLT2U1MGFvOURYVUVDZlo1RU5BaFJpRkVuZw?oc=5",
-   "source": "Firdaposten",
-   "published": "2026-10-03T10:57:01+00:00",
-   "first_seen": "2026-10-03T11:17:26+00:00",
-   "regions": [
-    "sf"
-   ],
-   "also": [
-    {
-     "source": "firdaposten.no",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zSUNaaEZHNUxCdGFRR0pmbjJKZ3pBTGd2S1FmSHFudlA5WGwyZndkS1RNQXFDaW5PNks5a1JHSkR4M1FvVVhZNDdVQ0VtNl84MXZYWjZJMHhLT2U1MGFvOURYVUVDZlo1RU5BaFJpRkVuZw?oc=5"
-    }
-   ],
-   "trusted": false,
-   "places": [
-    "Kinn"
-   ]
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-24T10:43:33+00:00"
+ "updated": "2026-10-24T11:09:26+00:00"
 }
