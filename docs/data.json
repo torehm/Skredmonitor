@@ -612,24 +612,9 @@
     }
    ],
    "trusted": false
-  },
-  {
-   "id": "0b3dd031b729",
-   "title": "Fare for flaum og skred i Vestland",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObm8wZVM4M000YlhSNUtpLXFzdkdKV2Fyek9BdmRWSUY0alZaQ2UwM2R6WEhkem9zM0NjOWxxQnVMY0x2TFRkU1RsNnZFaUxlbjBkNHpSOE11NzRFeHp5UmJtRmJRblNDd3diQjJFX0V6V2ZmTDlhSWN5QUFzQ2ktRGNSWQ?oc=5",
-   "source": "fjordabladet.no",
-   "published": "2026-10-03T17:45:00+00:00",
-   "first_seen": "2026-10-03T18:53:54+00:00",
-   "regions": [
-    "annet",
-    "sf"
-   ],
-   "also": [],
-   "trusted": false,
-   "places": []
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-24T11:43:45+00:00"
+ "updated": "2026-10-24T17:53:12+00:00"
 }
