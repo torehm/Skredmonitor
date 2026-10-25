@@ -29,6 +29,20 @@
    "trusted": false
   },
   {
+   "id": "5d233f7455fd",
+   "title": "(+) Skredsikring på plass i Fjæra",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CZDJNYVlFUmFEczF5cU14MU5FeTJ1NnIwQ0dWbVpIYUxqeDVMYTB5Y0tsYUdRN0NaZ1ZpblFSWEczNGUzRWZ3R2k3U1ZMdEM3ZzBFVkhQbEpsVldDa0h1dlE1Q2h2U3N3clh2dFBBYlh0d2ZSYnc?oc=5",
+   "source": "Grenda",
+   "published": "2026-10-23T03:00:00+00:00",
+   "first_seen": "2026-10-25T06:26:09+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "6b13b50f2264",
    "title": "(+) Skredsikrings­­jobben til 65 millioner er snart ferdig",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVGhiQVJodDFOel9Oblp6VlphNlJQSi1LUmNDOWxIUTlPWEhteGlma2hvZ0lUa1kyT2dEVmhtUlhnSkhSdS1NaGNOQ2FBMWVsTEFrbVlqTzBFb19TMklYbnBVMnpmeGNDVGY1R2pGUUZ5YW9jd091YkF0dGFTS3JHc25qLWpFSmNqUDBSZDdfUF84d2Z1OFpDRWdCS3NrTDZScndqNjBUS080OGxNeDVRejBaRG40Zw?oc=5",
@@ -630,5 +644,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-24T21:20:35+00:00"
+ "updated": "2026-10-25T06:26:55+00:00"
 }
