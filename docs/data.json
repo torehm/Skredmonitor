@@ -588,42 +588,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "bb18d62cccec",
-   "title": "Brann-trenaren raste etter regnkaoset: – Heilt absurd",
-   "url": "https://www.nrk.no/vestland/branns-lange-rekke-tok-slutt-_-aalesund-tente-gullhapet-1.18044951",
-   "source": "NRK Vestland",
-   "published": "2026-10-04T15:00:44+00:00",
-   "first_seen": "2026-10-04T17:50:39+00:00",
-   "regions": [
-    "annet"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": true
-  },
-  {
-   "id": "7052286cfba6",
-   "title": "Flom-og-ras",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BY0pkUi1SYkhDSVFPQ2lnaTRPWHl1UUQzOC0zLVp3WkRpQjZHUVJ2b3VNNU56aWhyVGpEMWFOcjFrS054TVp5Ug?oc=5",
-   "source": "Bergensavisen",
-   "published": "2026-10-04T14:48:06+00:00",
-   "first_seen": "2026-10-04T15:48:24+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [
-    {
-     "source": "ba.no",
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BY0pkUi1SYkhDSVFPQ2lnaTRPWHl1UUQzOC0zLVp3WkRpQjZHUVJ2b3VNNU56aWhyVGpEMWFOcjFrS054TVp5Ug?oc=5"
-    }
-   ],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-25T12:25:06+00:00"
+ "updated": "2026-10-25T15:09:15+00:00"
 }
