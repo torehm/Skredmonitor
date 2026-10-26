@@ -504,58 +504,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "30ed409e1dc8",
-   "title": "Fjaler, Ver | Bil treft av jordras i Fjaler",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80VXluQm81dWJqVXV3dDhfUnhiZWFSdEVaQ3ZtTDJSQkJUUkpOR0J2Wm9yU3pUV3lXYzNvWm5meGhHVXp2cjNaTVFEV1RsMDdjdmVkX3ZON21UTTYzU3NwVkJVNWFHOTVYRW9EblNseTYwZw?oc=5",
-   "source": "Firda",
-   "published": "2026-10-05T10:50:02+00:00",
-   "first_seen": "2026-10-05T11:13:07+00:00",
-   "regions": [
-    "sf"
-   ],
-   "places": [
-    "Fjaler"
-   ],
-   "also": [
-    {
-     "source": "firda.no",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80VXluQm81dWJqVXV3dDhfUnhiZWFSdEVaQ3ZtTDJSQkJUUkpOR0J2Wm9yU3pUV3lXYzNvWm5meGhHVXp2cjNaTVFEV1RsMDdjdmVkX3ZON21UTTYzU3NwVkJVNWFHOTVYRW9EblNseTYwZw?oc=5"
-    }
-   ],
-   "trusted": false
-  },
-  {
-   "id": "0a663dde7822",
-   "title": "Jordskred på Soltveit",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0TzYwcGQ4dll4Tjg5M2tIbTNaakZoS1dGNlJxV2FaU080a0dQaVNzN1ZPeTZaeUxuY2FCbzBmWUVlY08zd3hSYnNnbnFxLVoyVGZBTElRYlhTdFAtZDE4RXRFeTZMeUFNS3hoa1A5eVU?oc=5",
-   "source": "strilen.no",
-   "published": "2026-10-05T10:46:57+00:00",
-   "first_seen": "2026-10-05T14:17:24+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
-  },
-  {
-   "id": "6fa8af919464",
-   "title": "Jordskred i Alversund",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0TzYwcGQ4dll4Tjg5M2tIbTNaakZoS1dGNlJxV2FaU080a0dQaVNzN1ZPeTZaeUxuY2FCbzBmWUVlY08zd3hSYnNnbnFxLVoyVGZBTElRYlhTdFAtZDE4RXRFeTZMeUFNS3hoa1A5eVU?oc=5",
-   "source": "strilen.no",
-   "published": "2026-10-05T10:46:57+00:00",
-   "first_seen": "2026-10-07T16:34:27+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-26T09:36:08+00:00"
+ "updated": "2026-10-26T11:09:20+00:00"
 }
