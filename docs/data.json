@@ -574,23 +574,9 @@
     }
    ],
    "trusted": true
-  },
-  {
-   "id": "7dfecd4f349f",
-   "title": "Jordskred på Hjelmås",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PLXM3aHJQWEhKSUh3TjZ5U0FOWUU3cUhrUkxnTmxYRW1FN1BLajZ4SXdKU204c1lGZjVSYkpGUDV0R3hNU3RGMnhBaC1mTUhseWQxa3d5MFlMYXZWSDE1OGt3WGQ3QXlxVV9iTklYQUg?oc=5",
-   "source": "strilen.no",
-   "published": "2026-10-05T06:17:48+00:00",
-   "first_seen": "2026-10-05T09:46:53+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-25T15:09:15+00:00"
+ "updated": "2026-10-26T07:01:15+00:00"
 }
