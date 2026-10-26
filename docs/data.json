@@ -457,28 +457,9 @@
     }
    ],
    "trusted": false
-  },
-  {
-   "id": "214fd8af813a",
-   "title": "(+) Parti ved veg rasa ut",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FMTBJUzFVMW5IMC0tZXhpcEhJZGNJaW9RcHhNVG1ORkRUaGJaQ3RaYmdBU1UzMkJ2WGdHRy1vRlRuMzUzRDB1cFNGRC1VVndYamNPS2NTWnM2bDhqRlI1WEw4bDhxOGNDdWc?oc=5",
-   "source": "Grenda",
-   "published": "2026-10-05T17:24:03+00:00",
-   "first_seen": "2026-10-05T17:44:49+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [
-    {
-     "source": "grenda.no",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FMTBJUzFVMW5IMC0tZXhpcEhJZGNJaW9RcHhNVG1ORkRUaGJaQ3RaYmdBU1UzMkJ2WGdHRy1vRlRuMzUzRDB1cFNGRC1VVndYamNPS2NTWnM2bDhqRlI1WEw4bDhxOGNDdWc?oc=5"
-    }
-   ],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-26T15:09:28+00:00"
+ "updated": "2026-10-26T17:36:33+00:00"
 }
