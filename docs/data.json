@@ -553,30 +553,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "23a5293425d1",
-   "title": "Bil truffet av ras i Fjaler",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56WTVnRjduWlcxVGd6NTYzWUhRX3ExZkxnUlJWUlJ2eXRtb1dKbWdEeWRjQXpTblJKN1NYc3I0Y0NBV2tVSGZfZ1lULXRSVk0?oc=5",
-   "source": "NRK",
-   "published": "2026-10-05T09:23:03+00:00",
-   "first_seen": "2026-10-05T09:46:53+00:00",
-   "regions": [
-    "sf"
-   ],
-   "places": [
-    "Fjaler"
-   ],
-   "also": [
-    {
-     "source": "nrk.no",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TbzA2alNleHAzYThTRnBWelUzR3dkMkNjT1NtZXM1UEt4akFrbzYwd3BaVU5xS3FCZzlHc0Mxa1M2eVh5NlJnRlVMNmdPY1RqbFRLUVRvUFpjQVF4M2RHdTE1b2ZQaGJobDVqcU1DeC1EQkk5?oc=5"
-    }
-   ],
-   "trusted": true
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-26T07:01:15+00:00"
+ "updated": "2026-10-26T09:36:08+00:00"
 }
