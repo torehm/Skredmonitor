@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "b29a3cbdae31",
+   "title": "Dramatisk ras i Etne blir internasjonal TV: – Det verste jeg har sett",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdmh6eGxtNkJTV3c2bXliMUFsSlU2c3JSRG5XbXVTQS1iQzhYS0NVaTNXTEFMQ2dldmFIcTVaMnNIbHJ2akxKWHZ4SF9lWXJCN2phbElsWXFEMVF2QjBQY2ZHNE1MMWpsMDd1RVJMY2lFamRYNmpHT3FYOHVMUzR2MHFwRzhjYlRnbnYzSnpn?oc=5",
+   "source": "Radio Haugaland",
+   "published": "2026-10-28T16:23:00+00:00",
+   "first_seen": "2026-10-28T18:10:48+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Etne"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "4bfa80bc4310",
    "title": "Stormvarsel på Østlandet: – Kan bli omfattende flomskader og jordskred",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbEExV01jallQVl9qODg5bW04c3R5dEo2bTBSU2NmRkY1UlhwelFjNzFLVzFZeGtEMUwtYnhaVHd6NXcyTjJJLU95amx2R0FSc2VYOE9Kc0txZnZ1TzQzdWItSlBaVTczRGZzLVJ6cWtuOTdLam1oYXdfc25NMW9XTGFJNXdXNkRXbElrcm95TjF1a1gxYTF0Tms3bkxyRkIwWVZVcGwzd0xJQWdOVjBSZUlIRHlXdXBnd3M4?oc=5",
@@ -404,5 +420,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-26T19:17:36+00:00"
+ "updated": "2026-10-28T18:11:33+00:00"
 }
