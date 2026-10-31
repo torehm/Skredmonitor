@@ -1,6 +1,21 @@
 {
  "articles": [
   {
+   "id": "5dd259d9136e",
+   "title": "E16, Trafikk | Rasfare bremsar doplanane for trengjande på E16",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMk80a3RqSFhQVWlhbUl4OTVJUDFfTkRJNGJWU2I2S2hNSXZ6Ynd3SGg2M3dBZkpzQzN5RGRDVHdTaEZZRE1DTTVUdmtmYzY3RkJ3UFRBY0JHT1BNZ2tEN2hObGRLNHJZZG80U1JGT0NOcGxNODlCZjFDZnVlbjlHNGZMeFB1OE1Lem9UeHJCOA?oc=5",
+   "source": "Sogn Avis",
+   "published": "2026-10-31T14:27:43+00:00",
+   "first_seen": "2026-10-31T18:17:15+00:00",
+   "regions": [
+    "ho",
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "796c3bd74644",
    "title": "Steinsprang stengde fylkesveg",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VN19lQjNFa1ZHTVkzY1lhM0hXY2hyQVgybVU0QTVwYTVLaDBVZkM2ZmJqS1VJNF9Qc3QwcWNqT1lTQ0h0aWxLdnRnQnNKcVNMd2hEWUhqSTF0MkxITk1TdDFWT0FmRGxPUWFrY1k2Sk1mYVFuWUdIXw?oc=5",
@@ -434,5 +449,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-10-31T13:54:45+00:00"
+ "updated": "2026-10-31T18:17:59+00:00"
 }
