@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "c92240fe38b3",
+   "title": "(+) RAS-simulatoren er klar: Nå mangler han bare utstyret ditt",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNExBd2NlajkyOFhVTVkzQnhya2s3YngyU2pUM3ZDNUw0NU5yY2plbklSa0JHS1NjRHNnaEJmYUVGdnlXTEk1LTQyVjBkZGEtVVpuUDdWa3BSWHByMzFlci1NaFhMbTdtX3BydWpERXN6NlA3ZUhleXhCOHdzZmtkZDhVX1lTcXFLZGhGR0pMWUs4ZjdfdnJxMExNaXNIOEk2OFdCM25vRVlDVUM0WFRhTVYySFNCWm5kdVgwTi16Zw?oc=5",
+   "source": "LandbasedAQ.no",
+   "published": "2026-11-02T11:20:18+00:00",
+   "first_seen": "2026-11-02T19:47:50+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "5dd259d9136e",
    "title": "E16, Trafikk | Rasfare bremsar doplanane for trengjande på E16",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMk80a3RqSFhQVWlhbUl4OTVJUDFfTkRJNGJWU2I2S2hNSXZ6Ynd3SGg2M3dBZkpzQzN5RGRDVHdTaEZZRE1DTTVUdmtmYzY3RkJ3UFRBY0JHT1BNZ2tEN2hObGRLNHJZZG80U1JGT0NOcGxNODlCZjFDZnVlbjlHNGZMeFB1OE1Lem9UeHJCOA?oc=5",
@@ -433,5 +447,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-01T22:50:35+00:00"
+ "updated": "2026-11-02T19:48:35+00:00"
 }
