@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "19ceacd23af8",
+   "title": "To store steinskred i Flatabødalen i Kvam",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nUXpXUHdlTi1rUGVmUDF2SHV1ckNkcXlCWi00M1JLcEtmQVhrSi13QXJjdHU5Q2Z3NVNPdG5xMlFJcklNc053b2ZjT3ZJM0hSVW1tV2UwU2hZcjkyalJEQ2N0V1hrQ0lyTFlsXzlfU2VVbGFMUEZHQ1JuSWwtTnM?oc=5",
+   "source": "jordskjelv.no",
+   "published": "2026-11-03T13:11:39+00:00",
+   "first_seen": "2026-11-03T22:27:55+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Kvam"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "c92240fe38b3",
    "title": "(+) RAS-simulatoren er klar: Nå mangler han bare utstyret ditt",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNExBd2NlajkyOFhVTVkzQnhya2s3YngyU2pUM3ZDNUw0NU5yY2plbklSa0JHS1NjRHNnaEJmYUVGdnlXTEk1LTQyVjBkZGEtVVpuUDdWa3BSWHByMzFlci1NaFhMbTdtX3BydWpERXN6NlA3ZUhleXhCOHdzZmtkZDhVX1lTcXFLZGhGR0pMWUs4ZjdfdnJxMExNaXNIOEk2OFdCM25vRVlDVUM0WFRhTVYySFNCWm5kdVgwTi16Zw?oc=5",
@@ -463,5 +479,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-03T17:21:40+00:00"
+ "updated": "2026-11-03T22:28:38+00:00"
 }
