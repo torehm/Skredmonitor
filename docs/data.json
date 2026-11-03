@@ -30,6 +30,22 @@
    "trusted": false
   },
   {
+   "id": "6d93aabdebc9",
+   "title": "Stort steinskred i Flatabødalen i Kvam",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nUXpXUHdlTi1rUGVmUDF2SHV1ckNkcXlCWi00M1JLcEtmQVhrSi13QXJjdHU5Q2Z3NVNPdG5xMlFJcklNc053b2ZjT3ZJM0hSVW1tV2UwU2hZcjkyalJEQ2N0V1hrQ0lyTFlsXzlfU2VVbGFMUEZHQ1JuSWwtTnM?oc=5",
+   "source": "jordskjelv.no",
+   "published": "2026-10-30T07:00:00+00:00",
+   "first_seen": "2026-11-03T17:20:55+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Kvam"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "796c3bd74644",
    "title": "Steinsprang stengde fylkesveg",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VN19lQjNFa1ZHTVkzY1lhM0hXY2hyQVgybVU0QTVwYTVLaDBVZkM2ZmJqS1VJNF9Qc3QwcWNqT1lTQ0h0aWxLdnRnQnNKcVNMd2hEWUhqSTF0MkxITk1TdDFWT0FmRGxPUWFrY1k2Sk1mYVFuWUdIXw?oc=5",
@@ -447,5 +463,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-02T19:48:35+00:00"
+ "updated": "2026-11-03T17:21:40+00:00"
 }
