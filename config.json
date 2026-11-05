@@ -266,6 +266,8 @@
   ],
   "blocked_sources": [
     "Adressa",
-    "Adresseavisen"
-  ]
+    "Adresseavisen",
+    "LandbasedAQ"
+  ],
+  "notify_ho_until": "2026-11-12T16:00:00+01:00"
 }
