@@ -254,14 +254,15 @@ def build_notifications(new_articles):
     if len(new_articles) > 5:
         msgs.append({
             "title": f"{len(new_articles)} nye skredsaker",
-            "message": "Nye saker fra Sogn og Fjordane",
+            "message": "Nye saker i Sogn og Fjordane" + (" og Hordaland" if "ho" in notify_regions() else ""),
             "click": site_url() or "https://www.varsom.no/flom-og-jordskred/",
             "tags": ["mountain"],
         })
     else:
         for a in new_articles:
+            ho_only = "ho" in a["regions"] and "sf" not in a["regions"]
             msgs.append({
-                "title": f"Skred: {a['source']}",
+                "title": f"Skred{' (Hordaland)' if ho_only else ''}: {a['source']}",
                 "message": a["title"],
                 "click": a["url"],
                 "tags": ["mountain"],
@@ -286,12 +287,26 @@ def send_ntfy(msgs):
         time.sleep(0.5)
 
 
+def notify_regions():
+    """Sogn og Fjordane varsles alltid. Hordaland varsles frem til tidspunktet i config.json (notify_ho_until)."""
+    regions = {"sf"}
+    until = CFG.get("notify_ho_until")
+    if until:
+        try:
+            if dt.datetime.now(dt.timezone.utc) < dt.datetime.fromisoformat(until):
+                regions.add("ho")
+        except ValueError:
+            print(f"Ugyldig notify_ho_until: {until}", file=sys.stderr)
+    return regions
+
+
 def find_new(prev, articles):
     prev_ids = {a["id"] for a in prev.get("articles", [])}
     recent = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)
+    want = notify_regions()
     new_articles = [
         a for a in articles
-        if a["id"] not in prev_ids and "sf" in a["regions"]
+        if a["id"] not in prev_ids and want & set(a["regions"])
         and dt.datetime.fromisoformat(a["published"]) >= recent
     ]
     new_articles.sort(key=lambda a: a["published"])
