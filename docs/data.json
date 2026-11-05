@@ -1,6 +1,186 @@
 {
  "articles": [
   {
+   "id": "8015d5ac2250",
+   "title": "Bergensbanen åpnet etter ras",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CZl80NGhITnRiRTJhVTFxbmlZT0tmaUZKaU5IMnA4MkdMYXZCWnlYVUdDLUtqRDJvX2xIVFF6MEo4WFd3Y3VyS01rQUFrckFtajVGcFF2UEVwcW9xVmlJMWsxYjJnNXVUYUN5U2tCZUhLQk5ZS2hzd2JLMm8?oc=5",
+   "source": "bygdanytt.no",
+   "published": "2026-11-05T10:30:32+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "aba94a750806",
+   "title": "Opna for trafikk etter ras - men varslar for­seinkingar",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaTFlYkhmQ29aWFFfaW82VGtVZU1kS2lyM1M2QVEtMVZOcFlveXdUdjFCTGNFTEd0eWV0R0hYeVdaTmN4TUhDRjgzcVdyQkxmdnlHM0ZBUmc1amFodTd3bGotdE9DMTVkdEhXXzZMemFpcXU5bWEwcEgydk53UVRKQ2kzYjU?oc=5",
+   "source": "hallingdolen.no",
+   "published": "2026-11-05T10:29:36+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "d2afc506fdff",
+   "title": "Ras stenger Bergensbanen: – Vet ikke helt hva jeg skal gjøre",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5cXZCbXllNjFDRXhqNDFCWTZvNW1EMW5KVFJXOEtqcEUxa1F0c1Y1NnBpMHVpajVBOFVhWkNHcFlYODR0dF9SX0tkTzJZTXhkQ3FQZlVpOTRUR25IYnJz?oc=5",
+   "source": "Bergensavisen",
+   "published": "2026-11-05T10:26:21+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "79d456123866",
+   "title": "Ras på Bergensbanen",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLT0E1cEhCckhMaV92dGw1R1VvMnc0LXpjeURSOEpneU01S3B5eVg1UFE3Q3QzMXcxSnJqVTBXXy05MmVoUFAyZzNtTklDS2tSQml5bnczQ2REZHc3cTZxQ2ZEc19JZkx1bDlyQTBlbDJaVkE?oc=5",
+   "source": "Hordaland",
+   "published": "2026-11-05T10:26:08+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "8d16e38d511e",
+   "title": "Bergensbanen opna att etter ras",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84dW5TLU95cFl5UmRHaXZOS0I5Y3BEWGFjS0VGdkZ4a2VISjlSd1BkVUY0dnh3ZVoxcDZ6aUFmaWVIOUtNZlNCTkdGRjl6Y2lnTWRrSWFCMWpzRVRRZTdWaFJPQVNXUUFIZU1DTWt5Wlo2T1FnRE9FdjFB?oc=5",
+   "source": "NRK",
+   "published": "2026-11-05T10:14:43+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "annet"
+   ],
+   "places": [],
+   "also": [
+    {
+     "source": "NRK Vestland",
+     "url": "https://www.nrk.no/artikkel/ras-pa-bergensbana-ma-vente-forseinkingar-1532162"
+    }
+   ],
+   "trusted": true
+  },
+  {
+   "id": "ea3468aac16d",
+   "title": "Tog, VY | Ras stenger jernbanen mellom Dale og Voss",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYXFpZFJqaFAxZjRTN2wxdjJSTjRlRVJQZTd2NE43NXJ6YWFSbzBOZXhOandoeXE1ZG5NQXVRTmFnTU9nYlJDSHFfUWFVanJFLXlYcnZwR21lVUp6a2ttN296dDNFYmRQWXdVQVpUNVNxQkdvcHBRdG52WV9sdTlULWZGNVdkUmRIWFVVX0VRMTVlLVE?oc=5",
+   "source": "Vaksdalposten",
+   "published": "2026-11-05T07:54:23+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Voss"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "4d5231318440",
+   "title": "Bergensbanen ble stengt etter ras",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0c5dktWbTdjSTV3XzB0Q2F6cE1LakFtMmFSUXhFWDhCRVFfQ3NVNWU0emwtQUdWWmZROUxsYlBrZlROWUpJZEVScFBnYjhDN1BEM2E5aUN0WnJwc25QWHBYdXJOOUVfY2lVNkRLMjl0ODgyaFc3QUFaRm5oVlk4SmZFQWNQb2R1emJfZ0FzUk5ISlVhM2h0M3Bjbks?oc=5",
+   "source": "bygdanytt.no",
+   "published": "2026-11-05T06:26:49+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "1cdf29c9e7e6",
+   "title": "Bergensbanen åpen igjen etter ras",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTl9heTBaYURlaTVaZFBxU3RhNmNFeVVzOEtaczFhb2pzMGFiSV9sM3ZjUTl0U2ViOVNzWVd5LVRiczBXWWx5ei1Ub2l4OVN0SE9XcFJKWFQzSUp5am5idDRZak04V1Awc3BtUVM5eVdCS09ZYk51S0dnVy1EajNtSjNB?oc=5",
+   "source": "Aftenposten",
+   "published": "2026-11-05T04:50:26+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "250aa91beced",
+   "title": "Bergensbanen stengt grunnet ras: – Må vente på dagslys",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQWNUVDJjbjdTazhLSTlMWml4ZnRmV3hHRzBQdVJBNlN2dU1LdGhqSVp4RjRHTzgycmJIQVY3NUJrTzJIbG1xY3dfQ3diMTVfajI4aV9GTkp2NHlvci0wNmprcFNkRFNmYjQtRVN3azNRUG4tTUEtQmZVLUlNSUM3YVVyVFY5YzhDTjRDOTFoa2hpMGxmUHdkVHNlOA?oc=5",
+   "source": "Aftenposten",
+   "published": "2026-11-05T04:50:26+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "0b98be4f5d82",
+   "title": "Ras på Bergensbanen: – Beregn forsinkelser",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qVS12N2JMOUxlVEdBenJrQVFzblFMcDN2blJ2VnhQWTcwb0doWUlqd0l3LWx5R2p6ZTY4Qm5UR3VCWjczU0VfRk4zQW5LN3VReV9wOGFXUWFEWFNjZENtbDhhNkd0ZlNMM2c?oc=5",
+   "source": "Radio Haugaland",
+   "published": "2026-11-05T04:49:56+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [
+    {
+     "source": "folkebladet.no",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY2piVWpXQjJvS3ozQU43YTI1SU5XTlhCcl9sR3dCOUdCa05qY2EyNjJRZ0FOcFpkSGJIY29aYlRfWUJpNFpiSHVpVTluS2RORlNuQlZ0OWZYUHlDN3FSREZMVWlhdFMxZl84cTBXSEllQzdQQzhWSENZQ2tOLXQwODJRelVlYTBONG1xaEw2NExjemJT?oc=5"
+    }
+   ],
+   "trusted": false
+  },
+  {
+   "id": "9007ffbcabdb",
+   "title": "Bergensbanen opna etter steinras",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeG5uRDIwdTk0cUQ5M09BeHpzeFJWUnIwaGJ6dDRqcko1ZG1jeFNPRnZIN0RlY19qdy1OOTI2LWJ6Ymg3MTJlS1I2M2dETi1hSWVxOU1BYXNfWkFpRHcyVmpnaHZUQzMwVXpvdnhoOEM2NHlrZkRlNTE4ZnhvQ0FmbEhWNA?oc=5",
+   "source": "NRK",
+   "published": "2026-11-05T04:20:20+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "487f24f67b7b",
+   "title": "Bergensbanen stengt på grunn av ras",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUVRxLVFGNlctLXoyZzRPOEpNbTNRZkVkcFN3SmtOMzZXSEoxUTVoUFZoNGpSSHdyQjNJUXhQXy1tOWdfam1zTVBMZ1ZTbEotdzVsb3BiMjZkRlpqV0ZHc1pWSzRLVFlqUnA3QVVRbDRYWVFKeGo0MFk2RW1ZX1k1elNR?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-11-05T04:15:38+00:00",
+   "first_seen": "2026-11-05T11:32:19+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "19ceacd23af8",
    "title": "To store steinskred i Flatabødalen i Kvam",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nUXpXUHdlTi1rUGVmUDF2SHV1ckNkcXlCWi00M1JLcEtmQVhrSi13QXJjdHU5Q2Z3NVNPdG5xMlFJcklNc053b2ZjT3ZJM0hSVW1tV2UwU2hZcjkyalJEQ2N0V1hrQ0lyTFlsXzlfU2VVbGFMUEZHQ1JuSWwtTnM?oc=5",
@@ -13,20 +193,6 @@
    "places": [
     "Kvam"
    ],
-   "also": [],
-   "trusted": false
-  },
-  {
-   "id": "c92240fe38b3",
-   "title": "(+) RAS-simulatoren er klar: Nå mangler han bare utstyret ditt",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNExBd2NlajkyOFhVTVkzQnhya2s3YngyU2pUM3ZDNUw0NU5yY2plbklSa0JHS1NjRHNnaEJmYUVGdnlXTEk1LTQyVjBkZGEtVVpuUDdWa3BSWHByMzFlci1NaFhMbTdtX3BydWpERXN6NlA3ZUhleXhCOHdzZmtkZDhVX1lTcXFLZGhGR0pMWUs4ZjdfdnJxMExNaXNIOEk2OFdCM25vRVlDVUM0WFRhTVYySFNCWm5kdVgwTi16Zw?oc=5",
-   "source": "LandbasedAQ.no",
-   "published": "2026-11-02T11:20:18+00:00",
-   "first_seen": "2026-11-02T19:47:50+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
    "also": [],
    "trusted": false
   },
@@ -390,24 +556,9 @@
    ],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "f20dd61b0018",
-   "title": "Advarer mot flom og skred: – Her blir det verst",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXdacVlRYk43VVVrU21aZ0pVeWVuXzhOREFPaUJCUktYeWNpckh6QnY2QUIydlFyeXM1UjRHNWZ0QVM1Vi1PTkkyZ1BDUDZ0MGZQVW84OGkzRmdEa2Z3MVFDd0pERGdUTHd3MF9BdEpFQ1NQWC1SczJiUndqVnZIZGJvLVRaVUJK?oc=5",
-   "source": "TV 2",
-   "published": "2026-10-15T08:31:34+00:00",
-   "first_seen": "2026-10-15T08:47:51+00:00",
-   "regions": [
-    "ho",
-    "sf"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-04T17:49:48+00:00"
+ "updated": "2026-11-05T11:33:06+00:00"
 }
