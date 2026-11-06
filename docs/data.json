@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "8561d67c159b",
+   "title": "Gult farevarsel for mye regn, flom og skred i Troms",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGF0em4zcDlmOUxsWnRUbHEzdm44MU5QdHVOWFlYcnBEVnZOT1hlRENza2RMeWJ2QUNRYk1fbktxNU1HTEFoOVBpckJrYlFxTjlnS2ZOcVFORHNnQ3J0V0dVUVRJa3ZUci1wOE9NM3JiWWVKQW5WZVBwbXFwZ1I4dENzeVpTZmFQdjJWNU9XTVdMTzJkeklpNE9WM04yQQ?oc=5",
+   "source": "NRK",
+   "published": "2026-11-06T13:19:37+00:00",
+   "first_seen": "2026-11-06T14:49:29+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "6f7e45d2fc17",
    "title": "Ras stengde Bergensbanen",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qbFBQcTFCUHF5cUlTM083TFZUa2tleGdyZHBxbUYwYm5FYnNVNFJGNmZVVkpZc2lQZmxsa0hWYndVcWtqN01SWEN2a29XYXpFa2psemxtaGZVdDJCd1VZVzlkTkFHMk5GUlRENzVVeVFsRmIxQThWR2x3?oc=5",
@@ -559,5 +573,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-06T00:05:27+00:00"
+ "updated": "2026-11-06T14:50:11+00:00"
 }
