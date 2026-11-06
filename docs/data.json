@@ -555,40 +555,9 @@
    "places": [],
    "also": [],
    "trusted": true
-  },
-  {
-   "id": "4bad0969eb09",
-   "title": "Høyrde buldring i fjellet: Rykte ut til mogleg ras",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTTRKakFScm43YnV1b0MwU1FxbW5yRVBaSGhDMHV2bHA2b3Q0Q3BvYXYxYUpuczdnbjZWYzZwazJqOWI4WUNBRWVuWnlpQzBRTU5CM0l1aW5pd0Y3VDFXVWNYV2tacHdETnJwNlBtQ0twTjJsd3ZkMDFDWjhUTi05R2JfSE1tdm9QRHV6X19iRXFUTDJo?oc=5",
-   "source": "porten.no",
-   "published": "2026-10-15T19:09:06+00:00",
-   "first_seen": "2026-10-15T20:25:58+00:00",
-   "regions": [
-    "sf"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
-  },
-  {
-   "id": "52a3b8154188",
-   "title": "Flåm, Aurland | Høyrde mogleg ras i Flåm",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZSGdOT1JWUUV5NldfdmwyMUdZSFB5aktkUEczelRsd2dHWXdQNzJsX09BSnZmVnJzVzNXVGNkdUVudUs2enVkclRSall6MFBtTnB2RDVHT0NhRUJ3SjgzNG9ZVmdQZjQ?oc=5",
-   "source": "Sogn Avis",
-   "published": "2026-10-15T19:02:19+00:00",
-   "first_seen": "2026-10-15T19:16:43+00:00",
-   "regions": [
-    "sf"
-   ],
-   "places": [
-    "Aurland",
-    "Flåm"
-   ],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-05T19:00:28+00:00"
+ "updated": "2026-11-06T00:05:27+00:00"
 }
