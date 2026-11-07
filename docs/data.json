@@ -29,6 +29,22 @@
    "trusted": false
   },
   {
+   "id": "5379aa39f785",
+   "title": "Tog, VY | Ras stengte jernbanen mellom Dale og Voss",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYXFpZFJqaFAxZjRTN2wxdjJSTjRlRVJQZTd2NE43NXJ6YWFSbzBOZXhOandoeXE1ZG5NQXVRTmFnTU9nYlJDSHFfUWFVanJFLXlYcnZwR21lVUp6a2ttN296dDNFYmRQWXdVQVpUNVNxQkdvcHBRdG52WV9sdTlULWZGNVdkUmRIWFVVX0VRMTVlLVE?oc=5",
+   "source": "Vaksdalposten",
+   "published": "2026-11-05T12:16:19+00:00",
+   "first_seen": "2026-11-07T13:25:22+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Voss"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "6f7e45d2fc17",
    "title": "Ras stengde Bergensbanen",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qbFBQcTFCUHF5cUlTM083TFZUa2tleGdyZHBxbUYwYm5FYnNVNFJGNmZVVkpZc2lQZmxsa0hWYndVcWtqN01SWEN2a29XYXpFa2psemxtaGZVdDJCd1VZVzlkTkFHMk5GUlRENzVVeVFsRmIxQThWR2x3?oc=5",
@@ -476,5 +492,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-06T20:43:33+00:00"
+ "updated": "2026-11-07T13:26:06+00:00"
 }
