@@ -101,6 +101,20 @@
    "trusted": false
   },
   {
+   "id": "b1a1f3f69f1b",
+   "title": "Flom og ras i Norge",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94SWN2dXozb0I2WkdmSHdQME40c0ZVMmctUnlJSFAtZlNZX21PV05qYnplVTFkcEZjSjFZbUJuOXFHN1hFWFZ0M1BVQ1Voa2ZQSy1rbHp6RzBGN01qMHJqc1lGS3Y?oc=5",
+   "source": "NRK",
+   "published": "2026-11-05T11:10:03+00:00",
+   "first_seen": "2026-11-10T10:58:15+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "56bafdeb678f",
    "title": "Ras stengte Bergensbanen",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5cXZCbXllNjFDRXhqNDFCWTZvNW1EMW5KVFJXOEtqcEUxa1F0c1Y1NnBpMHVpajVBOFVhWkNHcFlYODR0dF9SX0tkTzJZTXhkQ3FQZlVpOTRUR25IYnJz?oc=5",
@@ -266,6 +280,10 @@
     {
      "source": "Nettavisen",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXhjNlpZMGZGbWJvMWVvTy1OeXhJbkJVenZoX2VvNVNaZ3BTNUljQjQ1WVk0OXNaWUU4LTh2RDJOYmp6ejllQVhUQTJSZmU4bjVjZDJqMU9uTjFHbzdmOEdjRUVsMHFDT2M4WnBVMlJPeHRGbVVxaTlPNkVTbklyM2QyellvNmU0N01KaVV0clgxZw?oc=5"
+    },
+    {
+     "source": "Dagbladet",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ09ORzZoejk4QkI0VlMweVRablFUODhuaXd4NkdIbFV2RlJNbEc4MkQ1ZlVLNElYbF9zY3lOWUlYd1ctTk8weXVRRmlaVFI3YlcySTBmS2VKUms2Q2tyUDNTZ21mZFl1Qk03SWZxeE9NU1dGOXlrdnZoWFlTQ2RzVnVMeUlydWVXWkdlWllNaG9tRTFGWjNlREJ5RGMtYlVOZ0xqTW9TMA?oc=5"
     }
    ],
    "trusted": false
@@ -502,23 +520,9 @@
    "places": [],
    "also": [],
    "trusted": true
-  },
-  {
-   "id": "3a10c5d333b4",
-   "title": "Porsgrunn: Beboere evakueres etter ras",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbzVhTV9ndm1YOTQ3ZWV5WFM5UFFZWFBGaURnT1N5SU51UkhraXdIMEw4c3ZZVFF4cUYzOFZzWlJ2cE9oNUFjWThuV3RfMEZwRDdhVEU2Nnl6c2pfaE5fUkQyMVUwRVhqLVBRekpydGs4YlJob2xiVUUxaEpfU05aRHFJQ0ZHUDlTWksxTFFDR3pIUlBHQnZOM2I5TlJQUQ?oc=5",
-   "source": "Dagbladet",
-   "published": "2026-10-20T07:00:00+00:00",
-   "first_seen": "2026-10-22T15:04:19+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-08T07:22:38+00:00"
+ "updated": "2026-11-10T10:58:57+00:00"
 }
