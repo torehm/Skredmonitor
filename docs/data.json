@@ -1,6 +1,68 @@
 {
  "articles": [
   {
+   "id": "2981011e5a2a",
+   "title": "Utrasingen: – Ikke skade på broene",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpN2VDLW93eVRKSjBQcDNBREhRWnZCYzFGLVFmcy1DMzNGcGxRZlg4YUtVNG51NXZ1cDlkZHVRTzFiUHAxS1NibjhvUTJjWjlRMXZLQmh1MHdwNVB2SmtrYUVRdFpfSG9fM3BsYkxWWDY2N3JocHBrLVA2X2N4Zw?oc=5",
+   "source": "vestnytt.no",
+   "published": "2026-11-10T14:05:40+00:00",
+   "first_seen": "2026-11-10T18:35:37+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "5d8a61050986",
+   "title": "Kilometervis med kø etter utrasing",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SS0tQYWw5dWZmeXAydkxDeTJUYjE4dXRxRG5HakM4VXEydmJlZ3dMM3ZydUxxNlY1MWFvbWtHZHZJbmVHRUhjdDFzYUZncUNtSG1FTXpldlFrMzdOb3BOVXZWdERsOGxIeXRIU29uWGZnM19FeG5LaXhmVQ?oc=5",
+   "source": "NRK",
+   "published": "2026-11-10T12:00:54+00:00",
+   "first_seen": "2026-11-10T18:35:37+00:00",
+   "regions": [
+    "annet",
+    "ho"
+   ],
+   "places": [],
+   "also": [
+    {
+     "source": "NRK Vestland",
+     "url": "https://www.nrk.no/artikkel/ikkje-koyr-til-sotra-om-du-ikkje-ma-1532609"
+    }
+   ],
+   "trusted": true
+  },
+  {
+   "id": "474bdd771a59",
+   "title": "Utrasing under Straumsundet bru: Riksveien ble lysregulert",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yRzR2QjN3RFlySE1KcWpaaGo5UGxoWTdhc3RvSG02c09BQ3gwcVBicGhJQzlfTEFZdXRaeXhLN2Jpb0lfNUNGRUxGNk1OaVZfQlc5dnltVlJjZVlYSGdOOVd2SFZnTlBvNkhyX21kNEQtT0REb2UxTHJQM0Q?oc=5",
+   "source": "vestnytt.no",
+   "published": "2026-11-10T10:34:13+00:00",
+   "first_seen": "2026-11-10T18:35:37+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "d0fd15d8f7e8",
+   "title": "Ras skapte kaos på rv. 555",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSkFfWmIzLXIyRVhuZnp6Y0trLXVKOTIzSUZDdWVuSkJndVFCc1FmSHpOU3hCTjlOU0JOZk54NGp1QVZDMDV6OTRQbXFYU0pURmpfYUpObnMxS09XY09ZRU9jcG8zQ2doNUdmcWZVYXpCZ1hBMkNfUHRMSXdTNEMtV055aDhDR1R0SUhjbWxSVU16UQ?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-11-10T10:29:42+00:00",
+   "first_seen": "2026-11-10T18:35:37+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "77aeb5429c76",
    "title": "Skredkveld - Inspirasjon og livsviktig lærdom til topptursesongen - 2026",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGNZZ2I4SFFDazNmN0FXWGtEQ3BhTURlbUwwSm5QMFQwamhOdndycDFjOGgzNDVHMVFZbjRPZHlEUWpjaFF0QjJVTklpWFkwdGVtYjZMVjlVLUFDQkprYmx4WlR4Y09rWmVrOTB1T21rR2R0dENYc0tQQktoTjc1MFA5TFlnNHZEcy1nMmVzWTRXR2tvcFEtX3NkN1RIMXZvVjdkcFBieHh3emtvT0o1QjNmUEp6aWhrM0lrOWVIaFh4NGVXcEFsTTFsTUtoX0Fnb0E?oc=5",
@@ -524,5 +586,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-10T10:58:57+00:00"
+ "updated": "2026-11-10T18:36:20+00:00"
 }
