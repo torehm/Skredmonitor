@@ -1,6 +1,34 @@
 {
  "articles": [
   {
+   "id": "0c9f3ed26067",
+   "title": "Ras, Melk | Må kaste melk og mangler fôr etter ras",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRzItMDBRS3Yxbmx4emxkaVFLREdHRlhmVnI0SXBjT3VIQll3Z2syeUkxc0tvSlF4SlNiYzlPRXI4clFTTHJKYWRfazFIakJpUTN4bE5ybkM5cG1Ia2tlNVEtbWVobS1CcjBqVDcwWUFWMjdDWXNnVjdNc0lOOXhSX3ZiNA?oc=5",
+   "source": "Nationen",
+   "published": "2026-11-10T19:33:27+00:00",
+   "first_seen": "2026-11-10T23:44:18+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "09f817e6be40",
+   "title": "Må skaffa ekspertvurderingar etter ras: – Det var steinblokker som kom frå eit punkt mykje høgare oppe",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVW5sWk9XTFg0QUlrVWxmdlljeEp1UGhYYTNLcU5STzh0SUJFSW1TN3Y5UmoxU2ltSm8zMWs4MmtCNW9kSGxqSGNXMnJYSHc2aC1zSzJPdTJ1d0tYQm9ZWTBMUldTZnhqN2tKa0hUWUduVmRRSUhDOXZYakREc2dOdlVKdWhaUnFGcU91dWxKVVE2TjY3N0xtaDZCZDBycHhZb1ctbF82bkJXMmtvdlk4Smt5NzI4d3lTdjZKM3dzOU92NmxSX3U1azNhaVNLUW5zclhkVQ?oc=5",
+   "source": "Sogn Avis",
+   "published": "2026-11-10T19:03:44+00:00",
+   "first_seen": "2026-11-10T23:44:18+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "2981011e5a2a",
    "title": "Utrasingen: – Ikke skade på broene",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpN2VDLW93eVRKSjBQcDNBREhRWnZCYzFGLVFmcy1DMzNGcGxRZlg4YUtVNG51NXZ1cDlkZHVRTzFiUHAxS1NibjhvUTJjWjlRMXZLQmh1MHdwNVB2SmtrYUVRdFpfSG9fM3BsYkxWWDY2N3JocHBrLVA2X2N4Zw?oc=5",
@@ -586,5 +614,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-10T18:36:20+00:00"
+ "updated": "2026-11-10T23:45:03+00:00"
 }
