@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "fe27c7c24ab2",
+   "title": "Heldt på å rasa: – Går ikkje med leikeplass under",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0hxUzhLUkU5VnNFdnlSalE2bFN3MzB3cXBRYWhOQjlTdEI2aGN4MS1zbHc2UW1zbVE2aWxrUHNQSjFyb0Z5ZUJQaTBvN2xXeUllTVVWZDBGTWRfNTY3c2NUN3lxTEliT0tvam5nb0NDbWNBSmxLUlo0ejFyTjJhS1FwYUxZZE1oZEpQWWp3NXB5alBTT3B4bFJzV2RZNnBBUnc?oc=5",
+   "source": "stord24.no",
+   "published": "2026-11-11T11:18:48+00:00",
+   "first_seen": "2026-11-11T18:34:54+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "0c9f3ed26067",
    "title": "Ras, Melk | Må kaste melk og mangler fôr etter ras",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRzItMDBRS3Yxbmx4emxkaVFLREdHRlhmVnI0SXBjT3VIQll3Z2syeUkxc0tvSlF4SlNiYzlPRXI4clFTTHJKYWRfazFIakJpUTN4bE5ybkM5cG1Ia2tlNVEtbWVobS1CcjBqVDcwWUFWMjdDWXNnVjdNc0lOOXhSX3ZiNA?oc=5",
@@ -83,6 +97,20 @@
    "source": "Bergens Tidende",
    "published": "2026-11-10T10:29:42+00:00",
    "first_seen": "2026-11-10T18:35:37+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "c12562aadd51",
+   "title": "Skred-vei åpner torsdag",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GUERraEFxQUlWYkM4b2E4aEFtdHJmU2F1OFp1Q0hTOVpXdEhJT1pVUWlKb1ROb2FsODRJRmx2a3RJR1FybURFSUJaRWxHQmNlRThvS2NpaVZmLXZYb0o5bVRwaWZzSTdwQjBxYnFINHZITTFYYjlJ?oc=5",
+   "source": "kystogfjord.no",
+   "published": "2026-11-09T15:13:50+00:00",
+   "first_seen": "2026-11-11T18:34:54+00:00",
    "regions": [
     "ho"
    ],
@@ -566,23 +594,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "3363f30ff544",
-   "title": "Statens vegvesen, Ras | Skredsikringa i Fjæra er i hamn",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSG9FSm5BOGJzcGc2REQwZGJwNnFxdFo2TVFRdUs5RmtUZkNmUy1TUTh2YXNaZkwwTnpOQm1LSEtnUkFRTTBXR3VJUXJMVnFiZW0xRVljMzlvMG9tRlJBOG1GODduVFJwZVdZbmRPZGs3enZBSGMzRWVwRDBncERDTjZZT2JiekU?oc=5",
-   "source": "Hardanger Folkeblad",
-   "published": "2026-10-21T13:24:15+00:00",
-   "first_seen": "2026-10-21T14:07:37+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-11T10:59:22+00:00"
+ "updated": "2026-11-11T18:35:36+00:00"
 }
