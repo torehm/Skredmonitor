@@ -1,6 +1,23 @@
 {
  "articles": [
   {
+   "id": "73b1ba6d17ef",
+   "title": "Førde, Sunnfjord | Jord- og snøskred i Førde",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZTGJQTDQ2cXRDRWlmWl9mU0dWMkNwYkRZNzk0ejBKck1GeVQxUkt3QlVrLU1CMjE0cDV6eDRXdGVQRmc5TVF4d1Z2NDJBV3FTeHNyN1lEUFNEMjNNRmwxSTl3?oc=5",
+   "source": "Firda",
+   "published": "2026-11-15T09:40:38+00:00",
+   "first_seen": "2026-11-15T15:25:54+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Førde",
+    "Sunnfjord"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "fe27c7c24ab2",
    "title": "Heldt på å rasa: – Går ikkje med leikeplass under",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0hxUzhLUkU5VnNFdnlSalE2bFN3MzB3cXBRYWhOQjlTdEI2aGN4MS1zbHc2UW1zbVE2aWxrUHNQSjFyb0Z5ZUJQaTBvN2xXeUllTVVWZDBGTWRfNTY3c2NUN3lxTEliT0tvam5nb0NDbWNBSmxLUlo0ejFyTjJhS1FwYUxZZE1oZEpQWWp3NXB5alBTT3B4bFJzV2RZNnBBUnc?oc=5",
@@ -556,5 +573,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-15T07:54:45+00:00"
+ "updated": "2026-11-15T15:26:40+00:00"
 }
