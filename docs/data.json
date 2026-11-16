@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "dd1d67601c30",
+   "title": "Jordskred i Sunnfjord",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWC1GZVVuZ256d2RNZzBrQUdRVzFMRUNZby11SWJhMGozYmczNHcxbjJJaUJRY2ZvTWliWFJTMkhEN2dlc3BhMUVYVmt4SFhFRnZoem5jczhQVUhaLWhTNTBoMXFnWFZpT3F0dU5KOXZBZHh6dGNvaGNybnd6SUZObkJGMA?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-11-15T19:55:51+00:00",
+   "first_seen": "2026-11-16T00:18:47+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Sunnfjord"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "73b1ba6d17ef",
    "title": "Førde, Sunnfjord | Jord- og snøskred i Førde",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZTGJQTDQ2cXRDRWlmWl9mU0dWMkNwYkRZNzk0ejBKck1GeVQxUkt3QlVrLU1CMjE0cDV6eDRXdGVQRmc5TVF4d1Z2NDJBV3FTeHNyN1lEUFNEMjNNRmwxSTl3?oc=5",
@@ -573,5 +589,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-15T15:26:40+00:00"
+ "updated": "2026-11-16T00:19:32+00:00"
 }
