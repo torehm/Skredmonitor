@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "e7a7c23148db",
+   "title": "Skredsikring, Samferdsel | Feira 1,5 kilometer rassikra veg: – Då er det berre resten igjen",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYTFhMXZNOWRMbGV5WTFMZTZrbHdhUGRVb0tSWGRfZ0dNbkhBeG9JWXdoNlc1WUlhb1E5ZE5HLVZmSk5iZ19hMjNQeFJzMzd1NGRBOV9ZOW9YVDdFR24zbTRiYXVQdXpNQjUza0t4TmxhRmRMbEQyM2FLeF9sSGJLRVJfazFjVEQ3ZGJNc1lXN2ZSTHZpcnplaWo0cHYtTXc3bHFudElnaU5HMk01bzNJ?oc=5",
+   "source": "Hardanger Folkeblad",
+   "published": "2026-11-17T14:48:35+00:00",
+   "first_seen": "2026-11-17T18:14:24+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "dd1d67601c30",
    "title": "Jordskred i Sunnfjord",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWC1GZVVuZ256d2RNZzBrQUdRVzFMRUNZby11SWJhMGozYmczNHcxbjJJaUJRY2ZvTWliWFJTMkhEN2dlc3BhMUVYVmt4SFhFRnZoem5jczhQVUhaLWhTNTBoMXFnWFZpT3F0dU5KOXZBZHh6dGNvaGNybnd6SUZObkJGMA?oc=5",
@@ -589,5 +603,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-16T00:19:32+00:00"
+ "updated": "2026-11-17T18:15:07+00:00"
 }
