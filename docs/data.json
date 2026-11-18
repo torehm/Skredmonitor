@@ -1,6 +1,20 @@
 {
  "articles": [
   {
+   "id": "3f69353f3ec9",
+   "title": "DNT vil lære folk om skred",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EOEJRSzEwUnByODhsa2h5R1p2WDlEWE9Lb2RCN0JqZFFYTjZ0S1hSQ3F3OUR5a0dpcU44SGhPaDhjb1cyNFRGZy1sU3ZBX0xfWl91bXctOHRKNkVDaGdsUWJKOTRjSnhTUTFMV0lZZ2lXUnloTFJaYjdn?oc=5",
+   "source": "fjordingen.no",
+   "published": "2026-11-18T15:00:00+00:00",
+   "first_seen": "2026-11-18T17:34:52+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "e7a7c23148db",
    "title": "Skredsikring, Samferdsel | Feira 1,5 kilometer rassikra veg: – Då er det berre resten igjen",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYTFhMXZNOWRMbGV5WTFMZTZrbHdhUGRVb0tSWGRfZ0dNbkhBeG9JWXdoNlc1WUlhb1E5ZE5HLVZmSk5iZ19hMjNQeFJzMzd1NGRBOV9ZOW9YVDdFR24zbTRiYXVQdXpNQjUza0t4TmxhRmRMbEQyM2FLeF9sSGJLRVJfazFjVEQ3ZGJNc1lXN2ZSTHZpcnplaWo0cHYtTXc3bHFudElnaU5HMk01bzNJ?oc=5",
@@ -569,25 +583,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "b29a3cbdae31",
-   "title": "Dramatisk ras i Etne blir internasjonal TV: – Det verste jeg har sett",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdmh6eGxtNkJTV3c2bXliMUFsSlU2c3JSRG5XbXVTQS1iQzhYS0NVaTNXTEFMQ2dldmFIcTVaMnNIbHJ2akxKWHZ4SF9lWXJCN2phbElsWXFEMVF2QjBQY2ZHNE1MMWpsMDd1RVJMY2lFamRYNmpHT3FYOHVMUzR2MHFwRzhjYlRnbnYzSnpn?oc=5",
-   "source": "Radio Haugaland",
-   "published": "2026-10-28T16:23:00+00:00",
-   "first_seen": "2026-10-28T18:10:48+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [
-    "Etne"
-   ],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-18T08:33:59+00:00"
+ "updated": "2026-11-18T17:35:37+00:00"
 }
