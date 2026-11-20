@@ -1,6 +1,119 @@
 {
  "articles": [
   {
+   "id": "9ddb2c4f2cd0",
+   "title": "Ras i tunnel i Nordfjord - fleire evakuert",
+   "url": "https://www.nrk.no/artikkel/ras-i-tunnel-i-nordfjord-uklart-om-det-er-folk-inni-tunnelen-1533617",
+   "source": "NRK Vestland",
+   "published": "2026-11-20T18:30:22+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Nordfjord"
+   ],
+   "also": [],
+   "trusted": true
+  },
+  {
+   "id": "9e7923bb5864",
+   "title": "Ras i tunnel på riksvei 15 i Stad kommune",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTR3dV9NRTRkakFxSnIwLXViOVBrbXFMdWFTSk41N05JV2d1MEE0dmVheEFCbzJjd0xkMV81Sm5PMjBuX3NjMVFuWlVlRDhBTTAweWZmdnlUWjVFQ3RCU3I4SDZGTEwyTktOMkhWU1hZRDFNWFdRTWxRd1plREp1NHYwdWJFTjV2MWdRSkFNZHp6NF9h?oc=5",
+   "source": "Nettavisen",
+   "published": "2026-11-20T18:27:33+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Stad"
+   ],
+   "also": [
+    {
+     "source": "Dagbladet",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGF2ZVJfSzhRU2k3Znk5MGwwb2kyTlRlaDVDV3IzUFZwOTc2aF94cnNCQ19WS20zR1FWWklwcnVNT1hoWVJQRGxSdEprVHpPSU5uYkpFOExLNzJmaWRPMWNDZ1JDdmc1eHJLa1JjNEV5bFpkLUdQYS1pS2tILUx0WFNzM2l1bzB3STdzbmhnT2lBOEd4U3pTTDNNbUNQVUtpU2xBcU5kVEUzZw?oc=5"
+    }
+   ],
+   "trusted": false
+  },
+  {
+   "id": "04e864f382c0",
+   "title": "Stad, Ulykker | Ras i tunnel i Stad: – Fleire bilar har punktert",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON011LUcwLWw0ZjR1SE9GTHhaRUZyZVJuWnFmT24zRURnNm1ZZWlfMC1JRENiRFlUZEtUYnRWVjhPdjg3X0VnQ2tSOVkycmpwcFZnMDloNFFBNHNoUzE1V1FqeVBfLVJzZWFoNnFWaWNYU1F2ZzRIV2VsZXpMSUpWcVFwYVN4Qmc?oc=5",
+   "source": "Firda",
+   "published": "2026-11-20T17:52:58+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Stad"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "ad3385718c7d",
+   "title": "Ras i tunnel i Nordfjord – flere biler har kjørt inn i steiner",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3IwX2NpU2lzMjZBTV83ZlI2aXdsSXoyMy1hODFJWkFDNTRYaTlnNnBWQV9CZEhydVZCb0gzYWhHbDNaSFU2Q3Iybkh1cng3MlNXZzZ1Q2x5cnM3emlJZTQ4WkNKZmFUeUJrTndlOFpwZXNZeU42Yl9vVTJSRk10a0VEeGF6Tmp1MzMzS2VZY3lVcTFfNWQyT2Q2dDJFaVhQd3dlRUR0OWdTRnJzMVQ1OHI4TnhaT3RiQkRMVkJBSVpTcEw2U2t6QQ?oc=5",
+   "source": "TV 2",
+   "published": "2026-11-20T17:52:32+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Nordfjord"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "b9f67b12dbef",
+   "title": "Ras i tunnel i Stad – flere biler kjørte inn i steiner",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVEg1amNLd1ZPc0xQRm43ZGI0M284VC1MUjIwa2t3UUxPaHZBUVUyMmVuYjVHQTBINmVVTmlCYlJyT3I2eVB6ZnMtYlBqYld6S0Rac3dCQ1hrTUp0TExocy1hNWJkR3lBX1FzVHRCY2dLMk4xMkZJUWlxTTZ6WXFBUjV5QTNYZWwzZS1UaExZTGpTZw?oc=5",
+   "source": "VG",
+   "published": "2026-11-20T17:52:07+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Stad"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "05821a3ed3f0",
+   "title": "Ras i tunnel – flere biler har kjørt inn i steiner",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOUhZVk5PV1VqTFJsdGw2MEVPWkdqWUxjeXhkUVFQdnpyWkFWdndBdTd0eGF0c3R1SlVYN3ZYWGxIVVVqbkVmeWJQSzFORUNsODlOcE1ZVDAtWGcyTEtCb3lfUFhjM3lFb1BxcWtjclBpbzlnRm5nMXlpYkgzQXFSWVRkZDhfYnZOb3RTckN0Yw?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-11-20T17:48:47+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "156883b03242",
+   "title": "Vindfylletunnelen stengd etter steinsprang",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXdfWk1mUHJ6NG5KSUdwYTRXYVZiRnpHWG1FYnk5MXJ2Rk45ZGo3NzJCNEIxRy1ybEFkX1FmREFaUE9YWlBaZUpBemRNOWVEOEUzaDN5dTYzNVp4eklxUEVmWVdvRkdPZEQ2ekdrbXFKN01IeHdyMEFtVEh3eWVIWEdvREJCNUNoREw4SWpYWGM?oc=5",
+   "source": "fjordabladet.no",
+   "published": "2026-11-20T17:46:32+00:00",
+   "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "3f69353f3ec9",
    "title": "DNT vil lære folk om skred",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EOEJRSzEwUnByODhsa2h5R1p2WDlEWE9Lb2RCN0JqZFFYTjZ0S1hSQ3F3OUR5a0dpcU44SGhPaDhjb1cyNFRGZy1sU3ZBX0xfWl91bXctOHRKNkVDaGdsUWJKOTRjSnhTUTFMV0lZZ2lXUnloTFJaYjdn?oc=5",
@@ -557,5 +670,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-20T11:22:34+00:00"
+ "updated": "2026-11-20T19:13:55+00:00"
 }
