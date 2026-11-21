@@ -17,6 +17,22 @@
    "trusted": true
   },
   {
+   "id": "52cc7e26dab7",
+   "title": "Ras i tunnel i Nordfjord – fleire vart evakuerte",
+   "url": "https://www.nrk.no/artikkel/ras-i-tunnel-i-nordfjord-uklart-om-det-er-folk-inni-tunnelen-1533617",
+   "source": "NRK Vestland",
+   "published": "2026-11-20T18:30:22+00:00",
+   "first_seen": "2026-11-21T00:49:59+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Nordfjord"
+   ],
+   "also": [],
+   "trusted": true
+  },
+  {
    "id": "9e7923bb5864",
    "title": "Ras i tunnel på riksvei 15 i Stad kommune",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTR3dV9NRTRkakFxSnIwLXViOVBrbXFMdWFTSk41N05JV2d1MEE0dmVheEFCbzJjd0xkMV81Sm5PMjBuX3NjMVFuWlVlRDhBTTAweWZmdnlUWjVFQ3RCU3I4SDZGTEwyTktOMkhWU1hZRDFNWFdRTWxRd1plREp1NHYwdWJFTjV2MWdRSkFNZHp6NF9h?oc=5",
@@ -33,6 +49,10 @@
     {
      "source": "Dagbladet",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGF2ZVJfSzhRU2k3Znk5MGwwb2kyTlRlaDVDV3IzUFZwOTc2aF94cnNCQ19WS20zR1FWWklwcnVNT1hoWVJQRGxSdEprVHpPSU5uYkpFOExLNzJmaWRPMWNDZ1JDdmc1eHJLa1JjNEV5bFpkLUdQYS1pS2tILUx0WFNzM2l1bzB3STdzbmhnT2lBOEd4U3pTTDNNbUNQVUtpU2xBcU5kVEUzZw?oc=5"
+    },
+    {
+     "source": "Anlegg.no",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yZU44c1VrSkpwclBfQkdjNFVNdTZ5XzZhVEJ2RHk4WmIwWGhRRkZURjRGcnZJNWdkTXdlc1hNTml3eXpNOS0wX3NzaVVZZWRrMVNkNkJYaVJjLVlNZXNKdjloRmhyZnFoZjZqNk10TkZuUHQ1VnBLV0NaWjE?oc=5"
     }
    ],
    "trusted": false
@@ -100,12 +120,40 @@
    "trusted": false
   },
   {
+   "id": "4c16c4796772",
+   "title": "Ras i tunnel – flere biler kjørte inn i steiner",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOUhZVk5PV1VqTFJsdGw2MEVPWkdqWUxjeXhkUVFQdnpyWkFWdndBdTd0eGF0c3R1SlVYN3ZYWGxIVVVqbkVmeWJQSzFORUNsODlOcE1ZVDAtWGcyTEtCb3lfUFhjM3lFb1BxcWtjclBpbzlnRm5nMXlpYkgzQXFSWVRkZDhfYnZOb3RTckN0Yw?oc=5",
+   "source": "Bergens Tidende",
+   "published": "2026-11-20T17:48:47+00:00",
+   "first_seen": "2026-11-21T00:49:59+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "156883b03242",
    "title": "Vindfylletunnelen stengd etter steinsprang",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXdfWk1mUHJ6NG5KSUdwYTRXYVZiRnpHWG1FYnk5MXJ2Rk45ZGo3NzJCNEIxRy1ybEFkX1FmREFaUE9YWlBaZUpBemRNOWVEOEUzaDN5dTYzNVp4eklxUEVmWVdvRkdPZEQ2ekdrbXFKN01IeHdyMEFtVEh3eWVIWEdvREJCNUNoREw4SWpYWGM?oc=5",
    "source": "fjordabladet.no",
    "published": "2026-11-20T17:46:32+00:00",
    "first_seen": "2026-11-20T19:13:05+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
+   "id": "25933e8df10f",
+   "title": "Ras i tunnel: – Fleire bilar køyrde inn i steinar",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXdfWk1mUHJ6NG5KSUdwYTRXYVZiRnpHWG1FYnk5MXJ2Rk45ZGo3NzJCNEIxRy1ybEFkX1FmREFaUE9YWlBaZUpBemRNOWVEOEUzaDN5dTYzNVp4eklxUEVmWVdvRkdPZEQ2ekdrbXFKN01IeHdyMEFtVEh3eWVIWEdvREJCNUNoREw4SWpYWGM?oc=5",
+   "source": "fjordabladet.no",
+   "published": "2026-11-20T17:46:32+00:00",
+   "first_seen": "2026-11-21T00:49:59+00:00",
    "regions": [
     "sf"
    ],
@@ -670,5 +718,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-20T19:13:55+00:00"
+ "updated": "2026-11-21T00:50:45+00:00"
 }
