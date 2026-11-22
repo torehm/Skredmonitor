@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "5f56adefd4bd",
+   "title": "Ullensvang vest, Trafikk | Arbeidet har tatt lenger tid enn venta: Stolpe tok skade i steinsprang",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3BMUWVCU3Z4c3V3cTMtUVhnYjlkTTZrQXNYSjl4a2VVVC1aQ3gtRlZkU0tGWm41aHRnNC1OX2sxelF2S1RUUS11dkVVdGwyUTVOcThpUDF1TU5iX1NpaTZ5UzNKZlBkcXc5aFNGN1JBZDMzWlhESnAwSWJNT3B0TnNZbGdFTFE4VnkxOWdDYjR3ZFFBNmRVMDJFelVGenE2MlpnRmkzUkU4RkNWUHF2U0lmeXNPMlNIclE?oc=5",
+   "source": "Hardanger Folkeblad",
+   "published": "2026-11-22T15:57:24+00:00",
+   "first_seen": "2026-11-22T16:56:01+00:00",
+   "regions": [
+    "ho"
+   ],
+   "places": [
+    "Ullensvang"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "9ddb2c4f2cd0",
    "title": "Ras i tunnel i Nordfjord - fleire evakuert",
    "url": "https://www.nrk.no/artikkel/ras-i-tunnel-i-nordfjord-uklart-om-det-er-folk-inni-tunnelen-1533617",
@@ -717,5 +733,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-22T08:52:50+00:00"
+ "updated": "2026-11-22T16:56:50+00:00"
 }
