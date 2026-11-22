@@ -190,6 +190,20 @@
    "trusted": false
   },
   {
+   "id": "9fa336b42382",
+   "title": "(+) Åpnet Nye Veiers første skredsikringsprosjekt",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTmxjV1d6XzBOREZwVzdscC1rUGh3NDVaUDl1WGJZX0Y1NGlZdmpSZUZFQTU0S1J1eWdhVEt0Vk9PeVhDenFvNWt5bTE4TUJZV0hQNTQzY0hQeFM4RHdxWW9oN2lOYVA0RHEwbGJXcHk0Y2Z3V3U3RDVXOTRfSlVEQTNOWUF2eXI2LVJKNl93NTV2d096ZlY1akJtSQ?oc=5",
+   "source": "Anlegg.no",
+   "published": "2026-11-17T13:30:12+00:00",
+   "first_seen": "2026-11-22T08:52:06+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "dd1d67601c30",
    "title": "Jordskred i Sunnfjord",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWC1GZVVuZ256d2RNZzBrQUdRVzFMRUNZby11SWJhMGozYmczNHcxbjJJaUJRY2ZvTWliWFJTMkhEN2dlc3BhMUVYVmt4SFhFRnZoem5jczhQVUhaLWhTNTBoMXFnWFZpT3F0dU5KOXZBZHh6dGNvaGNybnd6SUZObkJGMA?oc=5",
@@ -703,5 +717,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-21T16:10:40+00:00"
+ "updated": "2026-11-22T08:52:50+00:00"
 }
