@@ -49,6 +49,20 @@
    "trusted": true
   },
   {
+   "id": "3fcf619eee9d",
+   "title": "Ras i tunnel - bilar involvert",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXMnFOTXc2a2hfQXJoaGlvU1B3cEstX0twampxNjlpOWplZ1VsMnRoSUNFSzlhd1lWMmkya1NPVjNGRkZmSHNQdjFjOVdXOVEzNk1wR3FmOHk5WEE5RnNNalNwaWluZExxUnRXRmY0Y2NkOHcxcFVDYV9B?oc=5",
+   "source": "Firda Tidend",
+   "published": "2026-11-20T18:28:47+00:00",
+   "first_seen": "2026-11-24T20:21:20+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "9e7923bb5864",
    "title": "Ras i tunnel på riksvei 15 i Stad kommune",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTR3dV9NRTRkakFxSnIwLXViOVBrbXFMdWFTSk41N05JV2d1MEE0dmVheEFCbzJjd0xkMV81Sm5PMjBuX3NjMVFuWlVlRDhBTTAweWZmdnlUWjVFQ3RCU3I4SDZGTEwyTktOMkhWU1hZRDFNWFdRTWxRd1plREp1NHYwdWJFTjV2MWdRSkFNZHp6NF9h?oc=5",
@@ -69,6 +83,10 @@
     {
      "source": "Anlegg.no",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yZU44c1VrSkpwclBfQkdjNFVNdTZ5XzZhVEJ2RHk4WmIwWGhRRkZURjRGcnZJNWdkTXdlc1hNTml3eXpNOS0wX3NzaVVZZWRrMVNkNkJYaVJjLVlNZXNKdjloRmhyZnFoZjZqNk10TkZuUHQ1VnBLV0NaWjE?oc=5"
+    },
+    {
+     "source": "Bygg.no",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtcml4ZzJwdi1tQmZtM0dFcnBwMlozaXFNYm1EYXZmWDA5bnZabTJqS3ZBTmROcnFDdzA3aUc3emp6T1lhUDRPYnRzTGNScXg5eFl6bkdCcWtKNDFOamE0VHpSU1oxQW92NEZlRzhWQzE1aG9hWHp3ZQ?oc=5"
     }
    ],
    "trusted": false
@@ -699,25 +717,9 @@
    "places": [],
    "also": [],
    "trusted": false
-  },
-  {
-   "id": "19ceacd23af8",
-   "title": "To store steinskred i Flatabødalen i Kvam",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nUXpXUHdlTi1rUGVmUDF2SHV1ckNkcXlCWi00M1JLcEtmQVhrSi13QXJjdHU5Q2Z3NVNPdG5xMlFJcklNc053b2ZjT3ZJM0hSVW1tV2UwU2hZcjkyalJEQ2N0V1hrQ0lyTFlsXzlfU2VVbGFMUEZHQ1JuSWwtTnM?oc=5",
-   "source": "jordskjelv.no",
-   "published": "2026-11-03T13:11:39+00:00",
-   "first_seen": "2026-11-03T22:27:55+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [
-    "Kvam"
-   ],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-24T09:38:12+00:00"
+ "updated": "2026-11-24T20:22:02+00:00"
 }
