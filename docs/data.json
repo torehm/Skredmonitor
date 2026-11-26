@@ -689,37 +689,9 @@
     }
    ],
    "trusted": false
-  },
-  {
-   "id": "9007ffbcabdb",
-   "title": "Bergensbanen opna etter steinras",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeG5uRDIwdTk0cUQ5M09BeHpzeFJWUnIwaGJ6dDRqcko1ZG1jeFNPRnZIN0RlY19qdy1OOTI2LWJ6Ymg3MTJlS1I2M2dETi1hSWVxOU1BYXNfWkFpRHcyVmpnaHZUQzMwVXpvdnhoOEM2NHlrZkRlNTE4ZnhvQ0FmbEhWNA?oc=5",
-   "source": "NRK",
-   "published": "2026-11-05T04:20:20+00:00",
-   "first_seen": "2026-11-05T11:32:19+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
-  },
-  {
-   "id": "487f24f67b7b",
-   "title": "Bergensbanen stengt på grunn av ras",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUVRxLVFGNlctLXoyZzRPOEpNbTNRZkVkcFN3SmtOMzZXSEoxUTVoUFZoNGpSSHdyQjNJUXhQXy1tOWdfam1zTVBMZ1ZTbEotdzVsb3BiMjZkRlpqV0ZHc1pWSzRLVFlqUnA3QVVRbDRYWVFKeGo0MFk2RW1ZX1k1elNR?oc=5",
-   "source": "Bergens Tidende",
-   "published": "2026-11-05T04:15:38+00:00",
-   "first_seen": "2026-11-05T11:32:19+00:00",
-   "regions": [
-    "ho"
-   ],
-   "places": [],
-   "also": [],
-   "trusted": false
   }
  ],
  "warnings": [],
- "warnings_error": "<urlopen error timed out>",
- "updated": "2026-11-25T22:49:21+00:00"
+ "warnings_error": null,
+ "updated": "2026-11-26T04:44:16+00:00"
 }
