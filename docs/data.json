@@ -17,6 +17,22 @@
    "trusted": false
   },
   {
+   "id": "44ada4f5cceb",
+   "title": "Ras i tunnel i Nordfjord – flere biler kjørte inn i steiner",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTVA3S3drZmtMdlh2bFNnR01HSmlaMUxYMkNMMzdSVVdXNFlmYTk0Uno5NFdhbTJkN1FldGF4NDA1YmlETVdabm5jNW9QYVpOS0FUQWlFbmt1ZTI0UXJVRFVwTUVkRFFUMWNYQ3Z0b25qcTJTMVQ2T200ZXpuQ2xNZXNOUlVFa1J0Zko1V1NNbnNPeklxLVA3dzB1TEpuZlVwRXdyZFQyRjgtZWYxSkRBVlpsZmtEX256T1Vac08yRV9pNHQ5?oc=5",
+   "source": "TV 2",
+   "published": "2026-11-20T20:50:06+00:00",
+   "first_seen": "2026-11-27T05:14:43+00:00",
+   "regions": [
+    "sf"
+   ],
+   "places": [
+    "Nordfjord"
+   ],
+   "also": [],
+   "trusted": false
+  },
+  {
    "id": "9ddb2c4f2cd0",
    "title": "Ras i tunnel i Nordfjord - fleire evakuert",
    "url": "https://www.nrk.no/artikkel/ras-i-tunnel-i-nordfjord-uklart-om-det-er-folk-inni-tunnelen-1533617",
@@ -476,5 +492,5 @@
  ],
  "warnings": [],
  "warnings_error": null,
- "updated": "2026-11-26T14:32:40+00:00"
+ "updated": "2026-11-27T05:15:26+00:00"
 }
